@@ -2,28 +2,40 @@
 using namespace std;
 
 int sequence(int n){
-	int count = 0, n;
+	int count = 0;
 	for(int i = 1; i<=n; i++){
-		int arr[10];
-		n = 0;
-		int j=i;//내일확인하 
-		for(int k = 0; j; k++){
-			arr[k] = j%10;
-			j/=10;
-			n++;
-		}기 
-		for(int k = 1; k<10; k++){
-			for(int l = 1; l<n; l++){
-				if((arr[l-1] % k) != (arr[l] % k))
-					break;
-				if(l==(n-1))
-					count++;
+		int num = i, arrCount = 0, arr[10];
+		
+		for(int j = 0; num; j++){
+			arr[j] = num%10;
+			num/=10;
+			arrCount++;
+		}
+	
+		if(i<100){
+				count++;continue;
 			}
+			
+		int diff = arr[0]-arr[1];
+		int diffCount = 1;
+		for(int j = 2; j<arrCount; j++){
+		
+			if(diff==(arr[j-1]-arr[j])){
+				diffCount++;		
+			}
+			if(diffCount == (arrCount-1)){
+			count++;break;
+			}			
 		}
 		
 	}
+	
+	return count;
 }
 
 int main(){
-	
+	int n;
+	cin>>n;
+	cout<<sequence(n)<<"\n";
+	return 0;
 }
