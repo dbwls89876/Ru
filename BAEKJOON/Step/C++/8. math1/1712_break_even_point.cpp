@@ -1,21 +1,23 @@
-#include <iostream>
+#include <cstdio>
 using namespace std;
 
 int main(){
 	long a, b, c;
-	int result;
-	cin.tie(false);
-	cin>>a;
-	cin>>b;
-	cin>>c;
+	long n;
+	int cnt;
+	scanf("%d", &a);
+	scanf("%d", &b);
+	scanf("%d", &c);
 	
-	if(b>c)
-		result = -1;
+	n = a;
+	if(b>=c)
+		cnt = -1;
 	else{
-		for(result = 1; ;result++){
-		if((a+b*result)<c*result)
-			break;
+		c-=b;
+		while(n){
+			n-=c;
+			cnt++;
 		}
 	}
-	cout<<result;
+	printf("%d", cnt);
 }
