@@ -3,21 +3,15 @@ using namespace std;
 
 int main(){
 	long a, b, c;
-	long n;
-	int cnt;
+	int cnt = 0;
 	scanf("%d", &a);
 	scanf("%d", &b);
 	scanf("%d", &c);
-	
-	n = a;
-	if(b>=c)
-		cnt = -1;
+
+	if(b>=c) cnt=-1;
 	else{
 		c-=b;
-		while(n){
-			n-=c;
-			cnt++;
-		}
+		cnt = (a/c)+1;
 	}
 	printf("%d", cnt);
 }
