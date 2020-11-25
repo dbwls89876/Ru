@@ -1,13 +1,16 @@
 #include <iostream>
 using namespace std;
-//ÆÑÅä¸®¿À? 
+//????????????????
 int main(){
-	int n, i, r;
+	long n, i, r;
 	cin>>n;
 	
-	for(i = 1; n>0; i++){
-		r = n%i;
-		n/=i;
+	for(i = 0, r = 0; i<n;){
+		r++;
+		i+=r;
 	}
-	cout<<i<<"/"<< r ;
+	if(r%2==1)	
+		cout<<i-n+1<<"/"<< r-(i-n);
+	else
+		cout<<r-(i-n)<<"/"<<i-n+1;
 }
