@@ -20,8 +20,7 @@ int main(){
 			for(int i = 0; i<k; i++){
 				for(int j = 1; j<n; j++){
 					copy(arr, arr+15, temp);
-					arr[j]=temp[j=1]+temp[j];
-					cout<<arr[j];
+					arr[j]=arr[j-1]+temp[j];
 				}
 			}
 		}
