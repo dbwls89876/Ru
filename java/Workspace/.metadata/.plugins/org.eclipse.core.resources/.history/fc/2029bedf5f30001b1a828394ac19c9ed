@@ -1,0 +1,18 @@
+package test;
+
+public class DogTest {
+
+	public static void main(String[] args) {
+		Dog[] d = new Dog[5];
+		
+		d[0] = new Dog("¸Û1", "Áøµ¾°³1");
+		d[1] = new Dog("¸Û2", "Áøµ¾°³2");
+		d[2] = new Dog("¸Û3", "Áøµ¾°³3");
+		d[3] = new Dog("¸Û4", "Áøµ¾°³4");
+		d[4] = new Dog("¸Û5", "Áøµ¾°³5");
+		
+		for(Dog dog : d)
+			System.out.println(dog.showDogInfo());
+		
+	}
+}

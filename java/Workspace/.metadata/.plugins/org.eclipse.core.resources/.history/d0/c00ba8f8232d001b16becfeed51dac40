@@ -1,0 +1,9 @@
+package test;
+
+public class CardTest {
+	public static void main(String[] args) {
+		CardCompany cc = CardCompany.getInstance();
+		cc.createCard("강아지");
+		System.out.println(cc.card.getName() + "님의 카드 번호는 " + cc.card.getCardNum() + "입니다.");
+	}
+}

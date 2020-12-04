@@ -1,0 +1,13 @@
+package example;
+
+public class Rectangle extends Shape{
+	
+	public Rectangle(int x, int y, int w, int h) {
+		super(x, y, w, h);
+	}
+	
+	public void showInfo() {
+		System.out.println("µµÇüÀÇ xÁÂÇ¥ : " + x 
+				+ ", yÁÂÇ¥ : " + y + ", ³ĞÀÌ : " + width*height + ", ³ôÀÌ : " + height);
+	}
+}

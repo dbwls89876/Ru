@@ -1,0 +1,14 @@
+package example;
+
+public class Triangle extends Shape{
+	
+	public Triangle(int x, int y, int w, int h) {
+		super(x, y, w, h);
+	}
+	
+	@Override
+	public void showInfo() {
+		System.out.println("µµÇüÀÇ xÁÂÇ¥ : " + x 
+				+ ", yÁÂÇ¥ : " + y + ", ³ĞÀÌ : " + width*height/2 + ", ³ôÀÌ : " + height);
+	}
+}

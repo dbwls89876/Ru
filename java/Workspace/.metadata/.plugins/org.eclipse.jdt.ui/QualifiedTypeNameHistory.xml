@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="test.Triangle"/>
+    <fullyQualifiedTypeName name="staticex.Student"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.debug.BlackholeNode"/>
+    <fullyQualifiedTypeName name="array.Student"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.win32.coff.TestDebugInfo"/>
+    <fullyQualifiedTypeName name="inheritance.Customer"/>
+    <fullyQualifiedTypeName name="inheritance.VIPCustomer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="polymorphism.Customer"/>
+    <fullyQualifiedTypeName name="witharraylist.Customer"/>
+    <fullyQualifiedTypeName name="inheritance2.AnimalTest"/>
+    <fullyQualifiedTypeName name="example.Triangle"/>
+    <fullyQualifiedTypeName name="example.Circle"/>
+    <fullyQualifiedTypeName name="example.Cylinder"/>
+    <fullyQualifiedTypeName name="gameLevel.AdvancedLevel"/>
+    <fullyQualifiedTypeName name="gameLevel.SuperLevel"/>
+    <fullyQualifiedTypeName name="finalex.Constant"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.LIRInstruction.Def"/>
+    <fullyQualifiedTypeName name="finalex.Define"/>
+    <fullyQualifiedTypeName name="sun.tools.tree.ArrayAccessExpression"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="test.Sonata"/>
+    <fullyQualifiedTypeName name="test.Avante"/>
+    <fullyQualifiedTypeName name="test.Genesis"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.printer.GraphPrinterDumpHandler"/>
+    <fullyQualifiedTypeName name="test.Grandeur"/>
+    <fullyQualifiedTypeName name="interfaceex.Calculator"/>
+    <fullyQualifiedTypeName name="interfaceex.CompleteCalc"/>
+    <fullyQualifiedTypeName name="scheduler.RoundRobin"/>
+    <fullyQualifiedTypeName name="scheduler.LeastJob"/>
+    <fullyQualifiedTypeName name="scheduler.PriorityAllocation"/>
+    <fullyQualifiedTypeName name="scheduler.Scheduler"/>
+    <fullyQualifiedTypeName name="scheduler.AgentGetCall"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

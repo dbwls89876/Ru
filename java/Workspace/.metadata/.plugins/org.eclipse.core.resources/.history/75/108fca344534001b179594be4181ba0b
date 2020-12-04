@@ -1,0 +1,66 @@
+package example;
+
+public class Shape {
+	protected int x, y;
+	protected int width, height;
+	static double PI = 3.14159;
+	
+	public Shape() {}
+	
+	public Shape(int w, int h){
+		this.width = w;
+		this.height = h;
+	}
+	public Shape(int x, int y, int w, int h){
+		this.x = x;
+		this.y = y;
+		this.width = w;
+		this.height = h;
+	}
+
+	public void showInfo() {
+		System.out.println("µµÇüÀÇ xÁÂÇ¥ : " + x 
+				+ ", yÁÂÇ¥ : " + y + ", ³ĞÀÌ : " + width + ", ³ôÀÌ : " + height);
+	}
+	
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public static double getPI() {
+		return PI;
+	}
+
+	public static void setPI(double pI) {
+		PI = pI;
+	}
+	
+}
