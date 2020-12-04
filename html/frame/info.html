@@ -1,0 +1,82 @@
+<html>
+<head></head>
+
+<body></body>
+<b>기본정보
+<table border="1" cellspacing="0" width = "900" height="350" frame="hsides">
+	<tr frame="hsides">
+		<th bgcolor="#D4F4FA">이름</th>
+		<td>
+			<form action="/cgi-bin/formmail.cgi" method="post">
+			<input type="text" name="user_name" size="30"></form>
+		</td>
+		<th bgcolor="#D4F4FA">성별</th>
+		<td colspan="2">
+		<label><input type="radio" name="gender" value="남">남&nbsp;</label>
+		<label><input type="radio" name="gender" value="여">여&nbsp;</label>
+		</td>
+	</tr>
+	<tr frame="hsides">
+		<th bgcolor="#D4F4FA">생년월일</th>
+		<td><input type="text" name="birth" size="15"></form></td>
+		<th bgcolor="#D4F4FA">이메일</th>
+		<td colspan="2"><input type="text" name="user_name" size="30"></form></td>
+	</tr>
+	<tr frame="hsides">
+		<th bgcolor="#D4F4FA">전화번호</th>
+		<td>
+		<form action="/cgi-bin/formmail.cgi" method="post">
+			<select name="tell">
+				<option>02</option>
+				<option>053</option>
+			</select>
+			-
+			<input type="text" name="tell" size="1">
+			-
+			<input type="text" name="tell" size="1">
+			</form>
+		</td>
+		<th bgcolor="#D4F4FA">휴대전화</th>
+		<td colspan="2">
+		<form action="/cgi-bin/formmail.cgi" method="post">
+			<select name="phone">
+				<option>010</option>
+				<option>011</option>
+			</select>
+			-
+			<input type="text" name="tell" size="1">
+			-
+			<input type="text" name="tell" size="1">
+		</form>
+		</td>
+	</tr frame="hsides">
+	<tr>
+		<th bgcolor="#D4F4FA">사진등록</th>
+		<td colspan="4">
+			<input type="file" name="imagefile" accept="image/jpeg,image/gif">
+		</td>
+	</tr>
+	<tr frame="hsides">
+		<th bgcolor="#D4F4FA">주소</th>
+		<td colspan="4">
+		<form action="/cgi-bin/formmail.cgi" method="post">
+			<p><input type="text" name="addrNum" size="10"> <button type="button">우편번호 검색</button>
+			<font color="red" size="1"> *새 우편번호가 적용됩니다</font>
+			</p>
+			<input type="text" name="address" size="100"><br>
+			<input type="text" name="address" size="100">
+		</form>
+		</td>
+	</tr>
+	<tr>
+		<th bgcolor="#D4F4FA">등록일</th>
+		<td colspan="2">
+			<input type="text" name="address" size="10">
+		</td>
+		<th width="200" bgcolor="#D4F4FA">수정일</th>
+		<td>
+		 <input type="text" name="address" size="10">
+		</td>
+	</tr>
+</table>
+</html>

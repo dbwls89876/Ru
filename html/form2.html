@@ -1,0 +1,63 @@
+<html>
+
+
+<body>
+
+<form action="/cgi-bin/formmail.cgi" method="post"><p>당신이 좋아하는 과일은 무엇입니까?</p>
+	<label><input type="radio" name="fruit" value="사과">사과&nbsp;</label>
+	<input type="radio" name="fruit" value="포도">포도&nbsp;
+	<input type="radio" name="fruit" value="바나나">바나나&nbsp;
+	<input type="radio" name="fruit" value="오렌지">오렌지&nbsp;
+	<p>당신이 좋아하는 색상은 무엇입니까?</p>
+	<input type="checkbox" name="yellow" value="노랑" checked>노랑&nbsp;
+	<input type="checkbox" name="blue" value="파랑">파랑&nbsp;
+	<input type="checkbox" name="red" value="빨강">빨강&nbsp;
+	<input type="checkbox" name="green" value="녹색">녹색&nbsp;
+	
+	<p>당신의 이상형은?</p>
+	<select name="type">
+	<option>김희선</option>
+	<option>이영애</option>
+	<option>한채영</option>
+	</select>
+	<p>가장 많이 이용하는 브라우저는?</p>
+	<select name="brower">
+	<optgroup label="인터넷 익스플로러">
+		<option label="6.x">인터넷 익스플로러 6.x</option>
+		<option label="5.x">인터넷 익스플로러 5.x</option>
+	</optgroup>
+	<optgroup label="넷스케이프 네비케이터">인터넷 익스플로러 6.x<
+		<option label="6.x">넷스케이프 익스플로러 6.x</option>
+		<option label="5.x">넷스케이프 익스플로러 5.x</option>
+	</optgroup>
+	</select>
+	<p>당신의 이상형은?</p>
+	<select size="3" name="type" multiple>
+	<option value="kim1">김희선</option>
+	<option value="kim2">이영애</option>
+	<option value="kim3">한채영</option>
+	<option value="kim4">이미연</option></p></select>
+	
+	<p><label for="nm">이름 : </label>
+	<input type="text" name="name" id="nm"><br>
+	<p><label for="em">메일 : </label>
+	<input type="text" name="email" id="em">
+	<fieldset>
+		<legend>개인정보</legend>
+		이름 : <input type="text" name="uname"><br>
+		주소 : <input type="text" name="uaddrs" size="20"><br>
+		전화 : <input type="text" name="uphone">
+	</fieldset>
+	
+</form>
+
+<form action="/cgi-bin/formmail.cgi" enctype="multipart/form-data" method="post"><p>파일을 선택하세요!</p>
+	<input type="file" name="imagefile" accept="image/jpeg, image/gif>
+	<p><input type="submit" value="전송"></p>	
+</form>
+
+
+
+</body>
+
+</html>

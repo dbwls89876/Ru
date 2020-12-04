@@ -1,0 +1,71 @@
+<!--꿀팁&설명 적는 란
+	페이지 들어가면 기본적으로 보이는 메인html = index.html로 정해놨음
+	<br>줄 바꾸기 <p>단락 나누기, 한줄이 띄어짐 <nobr>텍스트렙 영향x
+	텍스트랩(textlap) = 브라우저의 크기가 변경될 때 자동으로 줄을 바꾸는 기능
+	<prb>문서에 나타나있는 그대로의 형태로 문단을 보고자 할 때 사용
+	<marquee>텍스트가 흘러가는 동작 연출, 익스플로러 전용 loop=num, -1(무한루프), 
+	
+-->
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>기본 문서 작성</title>
+		<meta name="description" content="연습하는html">
+	</head>
+	<body	background="../img/flower.jpg"
+	leftmargin="60"TOPMARGIN="10">
+		<!--내용메세지-->
+		<p>해당 페이지의 여백은 왼쪽 60픽셀, 위쪽 10 픽셀입니다.</p>
+		꽃 배경 이미지
+		<!--수평선 연습-->
+		1. 속성 없이 사용할 때
+		<hr><p>
+		2. 수평선의 두께가 12일 때
+		<hr size = 12><p>
+		3. 그림자가 없을 때
+		<hr noshade><p>
+		4. 수평선 두께가 15이고 폭 이 브라우저 화면의 50%, 왼쪽정렬일 때
+		<hr size="15" width="50%" align=left><p>
+		5. 수평선 두께가 30이고, 폭이 100픽셀, 그림자가 없을 때
+		<hr width="100" size="30px" noshade><p>
+		6. 수평선 두께가 5이고, 폭이 70%, 그림자가 없을 때 
+		<hr size="5px" width="70%" noshade color="#00000ff"><p>
+		<nobr>하루하루 내가 무얼하나<wbr> 곰곰히 생각해보니 거진 엇비슷한 의식주로<br> 나는 만족하더군</nobr>
+		<p align="left">왼쪽 정렬
+		<p align="center">중간 정렬
+		<p align="right">오른쪽 정렬
+		<h4 align="left">문자크기4 왼쪽 정렬<h4>
+		<h5 align="center">문자크기5 중간 정렬<h5>
+		<h6 align="right">문자크기6 오른쪽 정렬</h6>
+		<div align="left">div태그를 이용한 행정렬<br>왼쪽 정렬</div>
+		<div align="center">div태그를 이용한 행정렬<br>가운데 정렬</div>
+		<pre>
+		   사랑  사랑
+		  사  랑사  랑
+		   사     랑
+		    사   랑
+		     사랑
+		</pre>
+		<marquee align=top behavior=scroll direction=right 
+	scrolldelay=10 scrollamount=10 loop=-1>E-TEST에 오신것을 환영합니다</marquee>
+	<marquee align=middle behavior=alternate loop=-1>무한루프 왕복 미들</marquee>
+	<font size=2>글자 크기 2입니다</font><p>
+	<font color=#FF0000>글자색 빨강입니다.</font><p>
+	<font face=arial>font face is arial.</font><p>
+	<font size=3 color=green>크기, 색상 지정</font><p>
+	<font color=rgb(255, 0, 0) face=굴림>색상, 글꼴 지정</font><p>
+	<font size=4 color=rgb(50%, 50%, 50%) face=궁서>크기, 색상, 글꼴 지정</font><p>
+	
+	<b>문자를 진하게 강조</b><p>
+	<big>주위 문자보다 조금 크게</big><p>
+	<small>주위 문자보다 조금 작게</small><p>
+	<s>문자 가운데 줄긋기</s><p>
+	<strike>문자 가운데 줄긋기</strike><p>
+	<u>Underline으로 글자 아래에 밑줄을 긋는다</u><p>
+	<strong><b>와 같은 효과로 특별히 강조하고 싶은 부분을 진하게 나타낸다.</strong><p>
+	<sup>위첨자<sub>아래 첨자
+	물은H<sub>2</sub>O이다<p>
+	방정식 X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup>의 값은?
+	
+	</body>
+</html>

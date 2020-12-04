@@ -1,0 +1,37 @@
+<html>
+<head></head>
+<body>
+<form action="/cgi-bin/formmail.cgi" method="post">
+<p>이름:<input type="text" name="user_name" size="20"><p></form>
+
+<form action="/cgi-bin/formmail.cgi" method="post">
+<p>
+	<font size="2">readonly가 지정되지 않은 경우</font>
+	<textarea name="sample" rows="3" cols="25"></textarea>
+</p>
+<p><font size="2">randonly를 지정했을 때</font><br>
+<textarea name="sample" rows="3" cols="25" readonly>글입력안됨?안됨</textarea></p>
+
+<form action="/cgi-bin/formmail.cgi" method="post">
+	<p><font size="2">비밀번호1 : </font><input type="password" name="pswd1" size="10">
+	<p><font size="2">비밀번호2 : </font>
+	<input type="password" name="pswd2" size="10" value="itposco"></p>
+</form>
+
+<form action="/cgi-bin/formmail.cgi" method="post">
+	<p><font size="2">기본적인 버튼<br>
+	<input type="submit" value="전송"><input type="reset" value="취소"></p>
+</form>
+
+<form action="/cgi-bin/formmail.cgi" method="post"><p>
+	<button type="submit"><font size="3"><b>전송</b></font></button>&nbsp;
+	<button type="reset"><font size="3"><b>취소</b></font></button>&nbsp;
+	<button type="button"><font size="3"><b>일반단추</b></font></button>&nbsp;
+	<button type="submit"><img src="img/nlogo.jpg"><p>전송</button>
+</form>
+
+
+
+
+</body>
+</html>

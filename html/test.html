@@ -1,0 +1,95 @@
+<!--꿀팁&설명 적는 란
+	페이지 들어가면 기본적으로 보이는 메인html = index.html로 정해놨음
+	<br>줄 바꾸기 <p>단락 나누기, 한줄이 띄어짐 <nobr>텍스트렙 영향x
+	텍스트랩(textlap) = 브라우저의 크기가 변경될 때 자동으로 줄을 바꾸는 기능
+	<prb>문서에 나타나있는 그대로의 형태로 문단을 보고자 할 때 사용 <xmp>prb와 기능은 같으나 태그까지 나타냄
+	<marquee>텍스트가 흘러가는 동작 연출, 익스플로러 전용 loop=num, -1(무한루프), 
+	<hnum>head의 약자, h1~h6, 볼드체, 태그의 앞뒤는 강제적 줄바꿈
+	<font> 사이즈, 색상, 글꼴이름
+-->
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>테스트 페이지</title>
+		<meta name="description" content="연습하는html">
+	</head>
+	<body style="background-color: rgb(255, 230, 240);"
+		background="img/flower.jpg"
+		text="gray"
+		link="blue"
+		alink="gray"
+		vlink="red"
+		leftmargin="60"TOPMARGIN="10">
+	<!--내용메세지-->
+	해당 페이지의 여백은 왼쪽 60픽셀, 위쪽 10 픽셀입니다.<br>
+	내&nbsp;&nbsp;용
+		<br>링크색 = 블루, 이동중(alink) = 회색, 이미 읽어온 링크(vlink) = 레드<br>
+		<p><a href="https://www.naver.com/">네이버링크</a><br>
+			<a href="https://www.google.com/">구글링크</a>
+			<a href="https://www.yt.or.kr">영남기술교육원링크</a></p>
+	<!--수평선 연습-->
+	수평선 사이즈12, 폭 50%, 왼쪽정렬<hr size="12" width="50%" align=left><p>
+	<!--줄 바꿈 태그 연습-->
+		<nobr>no/br, 브라우저 창의 크기에 텍스트가 영향을 받지 않는다 <wbr>wbr, 브라우저 크기가 텍스트보다 작을 시 적절한 개행 위치를 찾아 개행 <br> br 강제 개행</nobr>
+	<!--문자 크기&행 정렬 연습-->
+		<h4 align="left">문자크기4 왼쪽 정렬
+		<h5 align="center">문자크기5 중간 정렬
+		<h6 align="right">문자크기6 오른쪽 정렬</h6>
+		<div align="center">div, 특정 부분을 하나의 그룹으로 정의하는 태그</div>
+		<pre>
+		   사랑  사랑
+		  사  랑사  랑
+		   사     랑
+		    사   랑
+		     사랑
+		</pre>
+		<xmp><h2><center>태그도 보이는 xmp</center></h2></xmp>
+		<marquee align=top behavior=scroll direction=right 
+	scrolldelay=10 scrollamount=10 loop=-1 loop=-1>E-TEST에 오신것을 환영합니다</marquee>
+	<font size=2>글자 크기 2입니다</font><p>
+	<font color=#FF0000>글자색 빨강입니다.</font><p>
+	<font face=arial>font face is arial.</font><p>
+	<font size=3 color=green>크기, 색상 지정</font><p>
+	<font color=rgb(255, 0, 0) face=굴림>색상, 글꼴 지정</font><p>
+	<font size=4 color=rgb(50%, 50%, 50%) face=궁서>크기, 색상, 글꼴 지정</font><p>
+	<basefont size=4 color=red face=궁서>기본폰트, 색상 글꼴 지정<p>
+	기본폰트 적용되나?
+	<font size=-1 color=gray face=돋음>상대값 적용</font><p>
+	<font size=3 color=green face=굴림>상대값 적용</font><p>
+	기본폰트 여기도 적용되나?<p>
+	<i>이탤릭체를 사용할 때 가장 편리하게 쓸 수 있다.</i><p>
+	<em>Emphasize(강조)의 의미가 있다.</em><p>
+	<cite>인용된 경우에 사용한다.</cite><p>
+	<address>E-mail주소, 전화, 팩스번호등을 나타낼 때 쓴다.</address></p>
+	<var>프로그램 변수등에 사용한다.</var><p>
+	<dfn>문자를 정의할 때 사용한다.</dfn><p>
+	
+	<ul><li>빨간 장미<li>노란 장미<li>흰 장미</ul>	
+	
+	<ul type="circle"><li>html 강좌<li>javascript 강좌<li>css 강좌</ul>
+	<ul><li type="circle">속이 빈 원형<li type="disc">속이 검은 원형<li type="square">속이 검은 사각형</ul>
+	
+	<ol><li>window98 따라하기<li>linux 따라하기<li>unix 따라하기</ol>
+	
+	<ol start=4>
+	<li type=a>빨간 장미
+	<li type=a>노란 장미
+	<li type=a>흰 장미</ol>
+	<ol start=4 type=a><li>빨간 장미<li>노란 장미<li>흰 장미</ul></ol>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
