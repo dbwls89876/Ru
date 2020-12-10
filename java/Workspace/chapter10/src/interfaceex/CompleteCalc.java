@@ -22,4 +22,10 @@ public class CompleteCalc extends Calculator{
 	public int square(int num) {
 		return num*num;
 	}
+
+	@Override
+	public void description() {
+		// TODO Auto-generated method stub
+		super.description();
+	}
 }
