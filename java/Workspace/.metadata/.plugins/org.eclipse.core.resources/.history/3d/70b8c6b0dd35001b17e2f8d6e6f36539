@@ -1,6 +1,0 @@
-package interfaceex;
-
-public class Calc {
-	double PI = 3.14;
-	in E
-}

@@ -1,9 +1,0 @@
-package gameLevel;
-
-public class BeginnerLevel {
-
-	public BeginnerLevel() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
