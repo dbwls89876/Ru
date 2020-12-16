@@ -1,6 +1,8 @@
 package collection;
 
-public class Member {
+import java.util.ArrayList;
+
+public class Member implements Comparable<Member>{
 	private int memberID;
 	private String memberName;
 	
@@ -8,7 +10,8 @@ public class Member {
 		this.memberID = memberID;
 		this.memberName = memberName;
 	}
-
+	
+	
 	public int getMemberID() {
 		return memberID;
 	}
@@ -28,5 +31,28 @@ public class Member {
 	@Override
 	public String toString() {
 		return memberName + " 회원님의 아이디는 " + memberID + "입니다.";
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Member) {
+			Member member = (Member)obj;
+			if(this.memberID == member.memberID) {
+				return true;
+			}else
+				return false;
+		}
+		return false;
+	}
+	
+	@Override
+	public int compareTo(Member member) {
+		return (this.memberName.compareTo(member.memberName));
+	}
+
+	@Override
+	public int hashCode() {
+		return memberID;
 	}
 }

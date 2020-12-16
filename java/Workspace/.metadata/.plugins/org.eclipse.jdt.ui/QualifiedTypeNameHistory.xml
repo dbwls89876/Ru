@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
-<fullyQualifiedTypeName name="jdk.internal.org.jline.utils.InputStreamReader"/>
-<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="test.Triangle"/>
-<fullyQualifiedTypeName name="staticex.Student"/>
-<fullyQualifiedTypeName name="org.graalvm.compiler.nodes.debug.BlackholeNode"/>
-<fullyQualifiedTypeName name="array.Student"/>
-<fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.win32.coff.TestDebugInfo"/>
-<fullyQualifiedTypeName name="inheritance.Customer"/>
-<fullyQualifiedTypeName name="inheritance.VIPCustomer"/>
-<fullyQualifiedTypeName name="java.util.ArrayDeque"/>
-<fullyQualifiedTypeName name="polymorphism.Customer"/>
-<fullyQualifiedTypeName name="witharraylist.Customer"/>
-<fullyQualifiedTypeName name="inheritance2.AnimalTest"/>
-<fullyQualifiedTypeName name="example.Triangle"/>
-<fullyQualifiedTypeName name="example.Circle"/>
 <fullyQualifiedTypeName name="example.Cylinder"/>
 <fullyQualifiedTypeName name="gameLevel.AdvancedLevel"/>
 <fullyQualifiedTypeName name="gameLevel.SuperLevel"/>
@@ -45,7 +27,6 @@
 <fullyQualifiedTypeName name="object.Student1"/>
 <fullyQualifiedTypeName name="object.Student"/>
 <fullyQualifiedTypeName name="object.Circle"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
@@ -56,8 +37,27 @@
 <fullyQualifiedTypeName name="generics.GenericPrinter"/>
 <fullyQualifiedTypeName name="generics.Point"/>
 <fullyQualifiedTypeName name="generics.GenericMethod"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="collection.Member"/>
 <fullyQualifiedTypeName name="collection.arraylist.MemberArrayList"/>
+<fullyQualifiedTypeName name="collection.LinkedListTest"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="collection.arraylist.MyStack"/>
+<fullyQualifiedTypeName name="collection.arraylist.MyQueue"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="collection.hashset.MemberHashSet"/>
+<fullyQualifiedTypeName name="collection.treeset.TreeSetTest"/>
+<fullyQualifiedTypeName name="collection.treeset.MemberTreeSet"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="collection.Member"/>
+<fullyQualifiedTypeName name="map.hashmap.MemberHashMap"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="test.CarFactory"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
