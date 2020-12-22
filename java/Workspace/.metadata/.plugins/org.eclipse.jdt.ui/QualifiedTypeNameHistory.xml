@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.graalvm.compiler.lir.LIRInstruction.Def"/>
-<fullyQualifiedTypeName name="finalex.Define"/>
-<fullyQualifiedTypeName name="sun.tools.tree.ArrayAccessExpression"/>
-<fullyQualifiedTypeName name="test.Sonata"/>
-<fullyQualifiedTypeName name="test.Avante"/>
-<fullyQualifiedTypeName name="test.Genesis"/>
-<fullyQualifiedTypeName name="org.graalvm.compiler.printer.GraphPrinterDumpHandler"/>
-<fullyQualifiedTypeName name="test.Grandeur"/>
-<fullyQualifiedTypeName name="interfaceex.Calculator"/>
-<fullyQualifiedTypeName name="interfaceex.CompleteCalc"/>
-<fullyQualifiedTypeName name="scheduler.RoundRobin"/>
-<fullyQualifiedTypeName name="scheduler.LeastJob"/>
 <fullyQualifiedTypeName name="scheduler.PriorityAllocation"/>
 <fullyQualifiedTypeName name="scheduler.Scheduler"/>
 <fullyQualifiedTypeName name="scheduler.AgentGetCall"/>
@@ -59,5 +47,17 @@
 <fullyQualifiedTypeName name="chapter13.OutClass.InStaticClass"/>
 <fullyQualifiedTypeName name="lambda.StringConCatImpl"/>
 <fullyQualifiedTypeName name="lambda.PrintString"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+<fullyQualifiedTypeName name="exception.AutoCloseObj"/>
+<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="exception.ThrowsException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="exception.IDFormatTest"/>
+<fullyQualifiedTypeName name="exception.IDFormatException"/>
+<fullyQualifiedTypeName name="exception.PasswordException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

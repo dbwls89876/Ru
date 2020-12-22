@@ -1,0 +1,17 @@
+select stu_no, stu_name, cir_name '동아리명' from circle;
+select prof_code "교수코드", prof_name "교수명" from professor where prof_code in (4001, 4002, 4005, 5010);
+
+part10 연습문제
+10-2 select stu_no, fee_year, fee_term, ifnull(fee_enter, "NULL VALUE"), fee_total from fee;
+10-3 9, 8, 1, 5, 24, 3, 5, 1, 
+10-4 select avg(jang_total) from fee;
+10-5 select stu_no, sum(jang_total) from fee group by stu_no having sum(jang_total) > (select sum(jang_total) from fee where stu_no = '20191006'); 
+10-6 select (max(fee_total) - min(fee_total)), max(fee_price)-min(fee_price) from fee;
+10-7 select stu_no, stu_name from student where length(stu_ename) > (select avg(stu_ename) from student);
+
+part11
+select substring(stu_no, 1, 4) from student group by substring(stu_no, 1, 4);
+
+select stu_no, count(*), sum(jang_total) from fee group by stu_no;
+select stu_no, count(*) from fee where stu_no in (select stu_no from student where stu_name = '박정인') group by stu_no;
+select grade, juya, count(*) from student group by grade, juya order by grade, juya;
