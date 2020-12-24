@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="interfaceex.Customer"/>
-<fullyQualifiedTypeName name="interfaceex.MyClass"/>
-<fullyQualifiedTypeName name="bookshelf.BookShelf"/>
-<fullyQualifiedTypeName name="object.Student1"/>
-<fullyQualifiedTypeName name="object.Student"/>
-<fullyQualifiedTypeName name="object.Circle"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-<fullyQualifiedTypeName name="classex.Person"/>
-<fullyQualifiedTypeName name="generics.Plastic"/>
-<fullyQualifiedTypeName name="generics.Powder"/>
-<fullyQualifiedTypeName name="generics.Material"/>
-<fullyQualifiedTypeName name="generics.GenericPrinter"/>
-<fullyQualifiedTypeName name="generics.Point"/>
 <fullyQualifiedTypeName name="generics.GenericMethod"/>
 <fullyQualifiedTypeName name="collection.arraylist.MemberArrayList"/>
 <fullyQualifiedTypeName name="collection.LinkedListTest"/>
@@ -55,9 +40,24 @@
 <fullyQualifiedTypeName name="java.io.Console"/>
 <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="stream.outputstream.FileOutputStreamTest1"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.io.Externalizable"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="stream.others.RandomAccessFileTest"/>
+<fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

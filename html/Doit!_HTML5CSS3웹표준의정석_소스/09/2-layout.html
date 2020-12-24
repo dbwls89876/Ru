@@ -4,8 +4,63 @@
 <head>
     <meta charset="utf-8">
     <title>2단 레이아웃</title>
+    <style>
+        div{
+            border: 1px solid #ccc;
+        }
+        #container{
+            width:960px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        #header{
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        #contents{
+            width:620px;
+            padding: 20px;
+            float: left;
+            margin-bottom: 20px;
+        }
+        #sidebar{
+            width: 220px;
+            padding: 20px;
+            float: right;
+            margin-bottom: 20px;
+        }
+        #footer{
+            clear:both;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div id="container">
+        <div id="header">
+            <h1>사이트 제목</h1>
+        </div>
+        
+        <div id="sidebar">
+            <h2>사이드 바</h2>
+            <ul>
+                <li>대한민국은 국제평화의 유지에 노력하고 침략적 전쟁을 부인한다.</li>
+                
+                </ul>
+        </div>
 
+        <div id="contents">
+            <h2>본문</h2>
+            <p>모든 국민은 법률이 정하는 바에 의하여 납세의 의무를 진다. 대법원과 각급법원의 조직은 법률로 정한다. 국교는 인정되지 아니하며, 종교와 정치는 분리된다. 모든 국민은 건강하고 쾌적한 환경에서 생활할 권리를 가지며, 국가와 국민은 환경보전을 위하여 노력하여야 한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다.</p>
+
+<p>국회는 헌법 또는 법률에 특별한 규정이 없는 한 재적의원 과반수의 출석과 출석의원 과반수의 찬성으로 의결한다. 가부동수인 때에는 부결된 것으로 본다. 누구든지 체포 또는 구속을 당한 때에는 즉시 변호인의 조력을 받을 권리를 가진다. 다만, 형사피고인이 스스로 변호인을 구할 수 없을 때에는 법률이 정하는 바에 의하여 국가가 변호인을 붙인다.</p>
+
+
+        </div>
+        <div id="footer">
+            <h2>푸터</h2>
+            <p>국민의 자유와 권리는 헌법에 열거되지 아니한 이유로 경시되지 아니한다.</p>
+        </div>
+    </div>
 </body>
 </html>
