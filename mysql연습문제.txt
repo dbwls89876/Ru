@@ -15,3 +15,17 @@ select substring(stu_no, 1, 4) from student group by substring(stu_no, 1, 4);
 select stu_no, count(*), sum(jang_total) from fee group by stu_no;
 select stu_no, count(*) from fee where stu_no in (select stu_no from student where stu_name = '박정인') group by stu_no;
 select grade, juya, count(*) from student group by grade, juya order by grade, juya;
+select stu_no, sum(fee_pay) from fee where stu_no in (select stu_no from student where gender in (1, 3, 5)) group by stu_no having sum(fee_pay) >= 2000000;
+select stu_no, sum(fee_pay) from fee group by stu_no having sum(fee_pay) >= all(select sum(fee_pay) from fee group by stu_no);
+
+11-2 select substring(birthday, 1, 4), count(*) from student group by substring(birthday, 1, 4);
+11-3 select stu_no, sum(jang_total), avg(jang_total), count(*) from fee group by stu_no;
+11-4 select create_year, count(*) 과목수 from subject group by create_year;
+11-5 select substring(create_date, 1, 4) as '발령년도', count(*) from professor group by substring(create_date, 1, 4);
+11-6 select stu_no, stu_name, post_no, adress // 문제가 이상함
+11-7 select stu_no, sum(fee_enter) '등록금 총액' from fee group by stu_no having sum(fee_enter)<1000000;
+11-8 select a.stu_no, stu_name, count(sub_code) from attend a left join student s on s.stu_no = a.stu_no group by a.stu_no having count(sub_code)>=2;
+11-9 select s.stu_no, stu_name, jang_total from student s left join fee f on s.stu_no = f.stu_no group by f.stu_no having sum(jang_total) >=all(select sum(jang_total) from fee group by stu_no);
+11-10 select stu_no, sum(fee_pay) from fee group by stu_no having sum(fee_pay) = (select sum(fee_pay) from fee where stu_no = '20191005');
+11-11 select f.stu_no, sum(fee_pay) from attend a left join fee f on a.stu_no = f.stu_no group by f.stu_no;
+11-12 select c.stu_no, stu_name, att_year, att_term from attend a left join circle c on c.stu_no = a.stu_no where president = 0 group by c.stu_no;
