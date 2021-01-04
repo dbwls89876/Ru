@@ -35,7 +35,15 @@ part 12 연습문제
 12-2 o, x, x, o;
 12-3 select (fee_price - jang_total) as '납입금 총액' from fee order by (fee_price - jang_total) asc;
 
+part 13?4? 연습문제
+14-3 select stu_no, stu_name from student where stu_no in (select stu_no fro fee where jang_total is not null);
+14-4 select stu_no, stu_name from student where stu_no in (select stu_no from attend);
+14-5 select stu_no, stu_name from student where stu_no not in (select stu_no from fee) and stu_no not in (select stu_no from attend);
 
+part 15 연습문제
+
+15-2 select s.stu_no, stu_name, ifnull(sum(fee_pay),0) from student s left join fee f on s.stu_no = f.stu_no group by s.stu_no;
+15-3 select s.stu_no, s.stu_name, ifnull(cir_name, '미가입') from student s left join circle c on s.stu_no=c.stu_no order by cir_name;
 
 
 
