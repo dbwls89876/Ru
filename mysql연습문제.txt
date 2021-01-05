@@ -45,7 +45,12 @@ part 15 연습문제
 15-2 select s.stu_no, stu_name, ifnull(sum(fee_pay),0) from student s left join fee f on s.stu_no = f.stu_no group by s.stu_no;
 15-3 select s.stu_no, s.stu_name, ifnull(cir_name, '미가입') from student s left join circle c on s.stu_no=c.stu_no order by cir_name;
 
-
+part16 연습문제
+16-1 update fee set fee_price=fee_price+100000, fee_total=fee_total+100000, fee_pay=fee_pay+100000 where stu_no in (select stu_no from student where grade=3);
+16-2 update fee set fee_enter = fee_enter*1.05, fee_price=fee_price*1.05, fee_total=fee_total*1.05, fee_pay=fee_pay*1.05;
+16-3 delete from attend where stu_no='20161001' and att_year = 2016;
+16-4 delete from attend where stu_no in (select stu_no from circle);
+16-5 delete from student where not stu_name = '유하나' and substring(address, 1, 2) in (select * from(select substring(address, 1, 2) from student where stu_name = '유하나') tmp) and stu_name<>'유하나';
 
 
 
