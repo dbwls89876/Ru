@@ -52,7 +52,8 @@ part16 연습문제
 16-4 delete from attend where stu_no in (select stu_no from circle);
 16-5 delete from student where not stu_name = '유하나' and substring(address, 1, 2) in (select * from(select substring(address, 1, 2) from student where stu_name = '유하나') tmp) and stu_name<>'유하나';
 
-
-
-
+part19 연습문제
+18-1  create view v_dungcnt as select stu_no, count(stu_no) cnt from fee group by stu_no;
+18-2 select stu_no, stu_name from student where stu_no in (select stu_no from fee where jang_total is not null and fee_div='Y');
+18-3 create view v_totals as select stu_no, fee_year, fee_term, jang_total from fee where jang_total >= 1000000;
 
