@@ -57,3 +57,27 @@ part19 연습문제
 18-2 select stu_no, stu_name from student where stu_no in (select stu_no from fee where jang_total is not null and fee_div='Y');
 18-3 create view v_totals as select stu_no, fee_year, fee_term, jang_total from fee where jang_total >= 1000000;
 
+ex연습
+테이블 생성 create table extable (no int(3) not null, name varchar(20) not null, passwd varchar(15), gender char(1));
+지역 변경
+alter table extable add nation varchar(30) default '대한민국';
+passwd 드랍
+alter table extable drop passwd;
+no 프라이머리 키 변경
+alter table extable drop no;
+alter table extable add primary key(no);
+insert into extable values (1, '홍길동', '남', '대한민국'),(2, '에드워드', '남', '미국'),(3, '이소룡', '남', '홍콩');
+insert into (no, name, gender) values (4, '신사임당', '여');
+select * from extable where nation = '대한민국' order by no desc;
+select replace(nation, '대한민국', '한국') from extable;
+delete from extable where gender = '여'; 
+트랜잭션 저장
+start transaction;
+insert into extable values (5, '마가렛', '여', '영국');
+commit;
+select * from extable;
+트랜잭션 취소
+start transaction;
+insert into extable values (6, '로버트', '남', '미국');
+rollback;
+select * from extable;
