@@ -57,7 +57,7 @@ part19 연습문제
 18-2 select stu_no, stu_name from student where stu_no in (select stu_no from fee where jang_total is not null and fee_div='Y');
 18-3 create view v_totals as select stu_no, fee_year, fee_term, jang_total from fee where jang_total >= 1000000;
 
-ex연습
+연습 01/08
 테이블 생성 create table extable (no int(3) not null, name varchar(20) not null, passwd varchar(15), gender char(1));
 지역 변경
 alter table extable add nation varchar(30) default '대한민국';
@@ -81,3 +81,17 @@ start transaction;
 insert into extable values (6, '로버트', '남', '미국');
 rollback;
 select * from extable;
+
+01/11
+* DB 테이블 목록 보기 - show tables from db이름
+* table 구조 보기 - desc 테이블이름
+select * from information_schema.tables; = use information_schema; select * from tables; <- DB가 안보여서 감정
+
+create index idx from extable;
+create view v as select no, name from extable;
+
+이너조인 - select * from hobby inner join extable on hobby.no = extable.no;
+=동일 select * from hobby h, extable e where e.no = h.no;
+
+select * from extable e left join hobby h on h.no = e.no;
+select name from extable e where no in (select no from hobby where h_name = '영화');

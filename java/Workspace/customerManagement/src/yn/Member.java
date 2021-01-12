@@ -1,5 +1,6 @@
 package yn;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 import yn.grade.MemberGrade;
@@ -10,6 +11,7 @@ public class Member {
 	private String passwd;
 	private MemberGrade memberGrade;
 	private Date joinDate;
+	public int rank;
 	
 	Member(String id, String name, String pw){
 		this.memberID = id;
@@ -17,6 +19,7 @@ public class Member {
 		this.passwd = pw;
 		joinDate = new Date(System.currentTimeMillis());
 		memberGrade = new MemberGrade();
+		int rank = 0;
 	}
 
 	public String getMemberID() {
@@ -64,6 +67,9 @@ public class Member {
 		System.out.println("ID : " + memberID);
 		System.out.println("가입일 : " + joinDate);
 		System.out.println(memberGrade.showGradeInfo());
+		System.out.println("순위 : " + (rank+1));
 	}
+	
+
 	
 }
