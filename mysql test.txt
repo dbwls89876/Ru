@@ -1,0 +1,36 @@
+1-1 create table sql_test_tb (아이디 varchar(10) not null, 패스워드 varchar(30) not null, 이름 varchar(20) not null, 성별 char(2), 생년월일 date, age int(4));
+1-2 alter table sql_test_tb change 성별 gender char(1) default 'M';
+1-3 alter table sql_test_tb add address varchar(50);
+1-4 alter table sql_test_tb drop 생년월일;
+1-5 alter table sql_test_tb modify age int(2) not null default 0;
+1-6 alter table sql_test_tb add primary key(아이디);
+
+기준 2.
+2-1 insert into sql_test_tb values ('you27', '#p1111', '유재석', 'M', 30, '서울특별시'), ('kim24', '@p2222', '김태희', 'F', 24, '대구광역시'), ('lee26', '!p3333', '이효리', 'F', 26, '부산광역시'), ('kim19', '$p4444', '김준현', 'M', 19, '서울특별시'), ('park33', '%p5555', '박명수', 'M', 33, '대구광역시');
+2-2 select 아이디, 이름, gender, age from sql_test_tb where gender='M' order by age desc;
+2-3 update sql_test_tb set address = replace(address, '광역시', '시') where substring(address, 3, 5) = '광역시';
+2-4 delete from sql_test_tb where age<25;
+
+기준 3
+3-1 start transaction;
+insert into sql_test_tb (아이디, 패스워드, 이름, gender, age) values ('jung23', '&p7777', '정지훈', 'M', 23);
+commit;
+select * from sql_test_tb where 아이디='jung23';
+3-2 start transaction;
+insert into sql_test_tb values ('seo28', '*p8888', '서장훈', 'M', 28, '대전시');
+
+기준 4
+4-1 show tables from sql_test;
+4-2 desc sql_test_tb;
+4-3 select * from information_schema.tables; = use information_schema; // 수정필요
+
+기준 5
+create index idx_name on sql_test_tb (이름);
+
+기준 6
+create view testView as select 아이디, 패스워드, 이름 from sql_test_tb;
+
+기준 7
+7-1 select * from a, b where a.코드 = b.코드;
+7-2 select * from a where 코드 in (select 코드 from b where name = 'ccc');
+7-3 select * from a union select * from b;
