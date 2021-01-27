@@ -9,7 +9,7 @@ int main(){
 	cin>>n;
 	a = n;
 	do{		
-		b=a;	
+		b=a;
 		if(a>=10)
 			b = (a/10)+(a%10);			
 		a = (a%10*10)+(b%10);
