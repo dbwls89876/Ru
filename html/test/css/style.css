@@ -2,6 +2,7 @@ element.style {
     position: relative;
     min-height: 100%;
     top: 0px;
+    
 }
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, strong, b {
     font-size: 16px;
@@ -10,6 +11,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, table, th, td, form, fi
     margin: 0;
     padding: 0;
     color: #444;
+    
 }
 html, body {
     height: 100%;
@@ -39,7 +41,16 @@ html, body {
     position: absolute;
     left: 0;
     top: 0;
+    color:white;
 }
+#header .ht_util .util_group {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 30px;
+    color:white;
+}
+a{ text-decoration: none;}
 #header .ht_util .util_slide .obj {
     position: relative;
 }
@@ -82,7 +93,7 @@ li{
     clear: both;
     padding: 50px 0 60px;
     border-top: 1px solid #f3f3f1;
-    background: url(/indvz/003/images/main/main_bg.jpg?t_=201907310900) no-repeat 50% 0 / cover;
+    background-color:rgb(155, 235, 224);    
 }
 .layout {
     height: 100%;
@@ -96,9 +107,11 @@ li{
 .m_section_1 .ms_visual {
     position: relative;
     float: left;
-    width: 816px;
+    width: 807px;
     height: 100%;
-    background-color: #333;
+    padding-right: 13px;
+    color: white;
+    background-color:rgb(155, 235, 224);  
 }
 .m_section_1 h3, .m_section_2 h3, .m_section_3 h3, .m_section_4 h3 {
     font-family: Noto Sans Kr, sans-serif;
@@ -110,6 +123,7 @@ li{
 .m_section_1 .ms_visual .mv_group {
     position: relative;
     height: 100%;
+    color: white;
 }
 .m_section_1 .ms_visual .mv_group .mg_list {
     position: absolute;
@@ -119,6 +133,8 @@ li{
     height: 100%;
     line-height: 130%;
     overflow: hidden;
+    color: white;
+    
 }
 .m_section_1 .ms_visual .mv_group .mg_list .ml_txt {
     position: absolute;
@@ -127,8 +143,8 @@ li{
     width: 100%;
     padding: 30px 0;
     text-align: center;
-    font-size: 22px;
-    color: #fff;
+    font-size: 30px;
+    color: white;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.5);
@@ -143,6 +159,23 @@ li{
 .m_section_1 .ms_visual .mv_control a.ov {
     background-color: #ff9010;
 }
+.m_section_1 .ms_yeyk {
+    padding-top: 20px;
+}
+
+.m_section_1 .ms_yeyk {
+    float: left;
+    width: 370px;
+    height: 100%;
+    padding: 32px 20px 0;
+    margin-left: 13px;
+    background-color: #00995f;
+}
+.m_section_1 .ms_yeyk .my_ti {
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
 .hide {
     position: fixed;
     top: -1px;
@@ -152,4 +185,79 @@ li{
     overflow: hidden;
     color: #000;
     background: #fff;
+}
+.m_section_1 .ms_yeyk .my_input {
+    margin-top: 20px;
+}
+.m_section_1 .ms_yeyk .my_input .input {
+    position: relative;
+    margin-top: 7px;
+}
+.m_section_1 .ms_yeyk .my_input .input:first-child {
+    margin-top: 0;
+}
+.m_section_1 .ms_yeyk .my_input .input .myInputsel {
+    height: 55px;
+    width: 100%;
+    border-radius: 5px;
+    background: #fff url(/indvz/003/images/main/my_label_marker.png?t_=201907310900) left 15px top 50% no-repeat;
+    border: 1px solid #d9d9da;
+}
+.m_section_1 .ms_yeyk .my_input .input .myInputsel select {
+    border: 0;
+    width: 100%;
+    height: 55px;
+    cursor: pointer;
+    color: #666;
+    position: top;
+    left: 0;
+    background: transparent;
+    background: -webkit-linear-gradient(transparent, transparent);
+    -webkit-appearance: none;
+    padding-left: 46px;
+}
+.m_section_1 .ms_yeyk .my_input .input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 10px;
+    width: 100%;
+}
+.m_section_1 .ms_yeyk .my_button {
+    margin-top: 7px;
+}
+.m_section_2 {
+    float: left;
+    width: 816px;
+    height: 160px;
+    margin-bottom: 14px;
+}
+.m_section_2 .ms_shortcut {
+    position: relative;
+    float: left;
+    width: 401px;
+    height: 100%;
+    padding: 35px 20px 0 150px;
+}
+.m_section_2 .notice {
+    background-color: #07928d;
+}
+.m_section_2 .event {
+    margin-left: 14px;
+    background-color: #8f908f;
+}
+.m_section_3 {
+    float: left;
+    width: 816px;
+    height: 303px;
+}
+.m_section_4 {
+    position: relative;
+    float: left;
+    width: 370px;
+    height: 477px;
+    margin: -174px 0 0 5px;
+    background-color: #fff;
 }
