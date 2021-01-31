@@ -95,3 +95,7 @@ create view v as select no, name from extable;
 
 select * from extable e left join hobby h on h.no = e.no;
 select name from extable e where no in (select no from hobby where h_name = '영화');
+
+insert into student values (1, '홍길동');
+insert into student values (2, '김길동');
+insert into student values (3, '홍길동');
