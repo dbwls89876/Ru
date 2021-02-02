@@ -261,3 +261,14 @@ li{
     margin: -174px 0 0 5px;
     background-color: #fff;
 }
+#footer {
+}
+#footer .f_top {
+    height: 56px;
+    background-color: #525252;
+}
+#footer .f_bottom {
+    padding: 25px 0 35px;
+    text-align: center;
+    background-color: #38383d;
+}
