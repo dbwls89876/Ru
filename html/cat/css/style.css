@@ -1,9 +1,10 @@
 .menu{
-    width:100%;
+    padding-top:10px;
+    width:800px;
     height: 100px;
-    background: url("img/cat_bagr.jpg") no-repeat center;
-    background-size: cover;
     text-decoration:none;
+    margin-left: auto;
+    margin-right: auto;
 }
 .menu ul li{
     list-style: none; 
@@ -14,7 +15,10 @@
     text-align: center;
     text-decoration:none;      
     display: block;
-    width: 150px; 
+    width: 150px;
+}
+.bg{
+  text-align: center;
 }
 table{
     border: 1px solid;
@@ -36,12 +40,14 @@ table{
     padding:0;
     float:left;
     z-index:5;
+    width:300px;
+    height: 300px;
   }   
    .list .caption {
     position: absolute;
     top:200px;
     width:300px;
-    height:200px;
+    height:300px;
     padding-top:20px;
     background:rgba(0,0,0,0.6);
     opacity:0;
@@ -62,7 +68,10 @@ table{
   .list .caption h1, .list .caption p {
     color: #fff;
     text-align: center;
-  }   
+  }
+  .info{
+    margin-left: 100px;
+  }
 @media screen and (max-width:1024px){
 
 }
