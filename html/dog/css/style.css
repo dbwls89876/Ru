@@ -2,7 +2,7 @@
     text-align: center;
     padding-top:10px;
     width:1600px;
-    height: 100px;
+    height: 50px;
     text-decoration:none;
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +13,6 @@
   margin-left: 400px;
 }
 .menu ul li{
-  display: inline-block;
     list-style: none; 
     color: white;
     float: left;
@@ -27,7 +26,7 @@
     background-color: rgb(63, 212, 238);
 }
 .menu ul li:hover{
-  background-color: gray;
+  background-color: rgb(252, 232, 169);
 }
 .bg{
   text-align: center;
@@ -92,12 +91,35 @@ table{
   }
 .info{
   margin-left: 100px;
+  padding-top: 100px;
 }
 .custominfo{
   margin-top: 100px;
   margin-left: 100px;
 }
-
+.body{
+  width: 1960px;
+  height: 1000px;
+  background-image: url('img/bag1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input{
+  width:90%;
+  color: rgb(100, 98, 98);
+  padding: 5px 5px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+input[type="text"]{
+  background-color: beige;
+  border: solid 2px rgb(241, 230, 125);
+}
+select{
+  padding: 5px 5px;
+  background-color: rgb(220, 242, 245);
+}
+td{color:rgb(75, 75, 75); }
 @media screen and (max-width:800px){
   .menu{
     padding-top:10px;
@@ -107,10 +129,10 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
-.menu ul{
-  margin-left: 0px;
-}
-.menu ul li{
+  .menu ul{
+    margin-left: 0px;
+  }
+  .menu ul li{
     list-style: none; 
     float: left; 
     color: white;
@@ -120,7 +142,14 @@ table{
     text-decoration:none;      
     display: block;
     width: 150px;
-}
+  }
+  .body{
+    width: 800px;
+    height: 800px;
+    background-image: url('img/bag2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 @media screen and (max-width: 400px){
   .menu{
@@ -151,5 +180,11 @@ table{
   .bg img{
     left:25%; clip:rect(0px 100px 100px 0px)
   }
-  
+  .body{
+    width: 400px;
+    height: 1000px;
+    background-image: url('img/bag3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
