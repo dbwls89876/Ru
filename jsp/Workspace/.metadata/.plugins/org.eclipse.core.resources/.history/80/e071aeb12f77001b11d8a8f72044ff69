@@ -1,0 +1,20 @@
+package svc;
+
+import javax.servlet.http.HttpServletRequest;
+
+import vo.Dog;
+
+public class DogCartAddService {
+
+	public Dog getCartDog(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void addCart(HttpServletRequest request, Dog cartDog) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

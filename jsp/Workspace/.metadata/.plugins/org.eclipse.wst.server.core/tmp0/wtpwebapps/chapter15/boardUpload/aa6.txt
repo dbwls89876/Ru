@@ -1,0 +1,9 @@
+9-29
+select att_year, att_term, att_date, stu_name from attend left join student on attend.stu_no = student.stu_no where student.stu_no='20191007';
+9-30
+select a.stu_no, att_year, att_term, sub_name from attend a left join subject s on a.sub_code = s.sub_code where a.stu_no not in (select stu_no from score);
+9-31
+select s.stu_no, s.stu_name, cir_name from student s left join circle c on s.stu_no = c.stu_no where president = '0';
+9-32
+select s.stu_no, s.stu_name from student s left join circle c on c.stu_no = s.stu_no where s.stu_no not in (select stu_no from circle);
+ select distinct s.stu_no, s.stu_name, fee_year from student s left join fee f on s.stu_no = f.stu_no where fee_year in ('2016', '2018');

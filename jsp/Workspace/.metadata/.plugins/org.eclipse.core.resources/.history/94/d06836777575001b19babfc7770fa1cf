@@ -1,0 +1,18 @@
+package svc;
+
+import static db.JdbcUtil.*;
+import java.sql.Connection;
+
+import vo.MemberBean;
+
+public class MemberModProSvc {
+
+	public boolean modifyMember(MemberBean member) {
+		boolean isModifySuccess = false;
+		Connection con = null;
+		
+		
+		return isModifySuccess;
+	}
+
+}

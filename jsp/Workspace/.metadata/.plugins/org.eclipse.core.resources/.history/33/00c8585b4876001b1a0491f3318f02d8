@@ -1,0 +1,23 @@
+package dao;
+
+import static db.JdbcUtil.*;
+import java.sql.Connection;
+import javax.sql.DataSource;
+
+public class LoginDAO {
+	DataSource ds;
+	Connection con;
+	private static LoginDAO loginDAO;
+	private LoginDAO() {}
+	
+	public static LoginDAO getInstance() {
+		if(loginDAO == null) {
+			loginDAO = new LoginDAO();
+		}
+		return loginDAO;
+	}
+	
+	public void setConnection(Connection con) {
+		this.con = con;
+	}
+}

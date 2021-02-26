@@ -1,0 +1,23 @@
+package svc;
+
+import static db.JdbcUtil.*;
+import java.sql.Connection;
+
+public class LoginService {
+
+	public Member getLoginMember(String id, String password) {
+		LoginDAO loginDAO = LoginDAO.getInstance();
+		Connection con = null;
+		loginDAO.setConnection(con);
+		Member loginMember = loginDAO.setectLoginMember(id, password);
+		try {
+			 con = getConnection();
+		}catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}finally {
+			close(con);
+		}
+	}
+	
+}

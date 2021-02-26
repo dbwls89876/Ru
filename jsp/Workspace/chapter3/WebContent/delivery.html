@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>delivery</title>
+<style type="text/css">
+	#deliveryFormArea{
+		text-align: center;
+		width: 250px;
+		margin: auto;
+		border: 1px solid red
+	}
+	h1{
+	text-align: center;
+	}
+</style>
+</head>
+<body>
+<h1>배송지</h1>
+<section id="deliveryFormArea">
+<form action="delivery" method="get">
+	<label>배송지</label><br>               
+	<label for="addr">받을 주소 :</label><input type="text" name="addr" id="addr"/><br>
+	<label for="name">받는 사람 :</label><input type="text" name="name" id="name"/><br>
+	<input type="submit" value="Post방식 전송">
+</form><br>
+<label>전화</label><br>
+
+<form action="delivery" method="get">
+	<label for="tel">전화번호 :</label><input type="text" name="tel" id="tel"/><br>
+	<input type="submit" value="Get방식 전송">
+</form>
+
+</section>
+</body>
+</html>
+<!-- post 주소 이름  get 전화번호 -->

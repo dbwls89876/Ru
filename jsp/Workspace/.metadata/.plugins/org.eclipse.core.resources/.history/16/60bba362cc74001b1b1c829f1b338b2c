@@ -1,0 +1,19 @@
+package svc;
+
+import java.util.ArrayList;
+
+import vo.MemberBean;
+
+public class MemberListSvc {
+
+	public ArrayList<MemberBean> getMemberList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public int getListCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

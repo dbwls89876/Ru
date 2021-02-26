@@ -1,0 +1,23 @@
+package svc;
+
+import static db.JdbcUtil.*;
+
+import java.sql.Connection;
+
+public class MemberDelSvc {
+		pubilc boolean deleteMember(MemberBean member) {
+			boolean isDeleteSuccess = false;
+			Connection con = null;
+			try {
+				
+			}catch (Exception e) {
+				// TODO: handle exception
+				e.printStackTrace();
+			}finally {
+				close(con);
+			}
+			
+		}
+	
+	
+}

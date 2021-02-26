@@ -1,0 +1,11 @@
+package svc;
+
+
+public class LoginService {
+
+	public Member getLoginMember(String id, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

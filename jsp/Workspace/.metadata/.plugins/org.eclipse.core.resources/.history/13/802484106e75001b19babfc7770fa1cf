@@ -1,0 +1,24 @@
+package svc;
+
+import static db.JdbcUtil.*;
+import java.sql.Connection;
+
+import vo.MemberBean;
+
+public class MemberInfoSvc {
+
+	public MemberBean getMember(String id) {
+		MemberBean member = null;
+		Connection con = null;
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}finally {
+			close(con);
+		}
+		return member;
+	}
+
+}

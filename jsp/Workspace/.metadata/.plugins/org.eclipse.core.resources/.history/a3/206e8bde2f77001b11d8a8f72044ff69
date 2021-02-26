@@ -1,0 +1,39 @@
+package svc;
+
+import static db.JdbcUtil.*;
+
+import java.sql.Connection;
+
+import javax.servlet.http.HttpServletRequest;
+
+import dao.DogDAO;
+import vo.Dog;
+
+public class DogCartAddService {
+
+	public Dog getCartDog(int id) {
+		// TODO Auto-generated method stub
+		Connection con = null;
+		
+		try {
+			con = getConnection();
+			DogDAO dogDAO = DogDAO.getInstance();
+			dogDAO.setConnection(con);
+			Dog dog = dogDAO.selectDog(id);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}finally {
+			close(con);
+		}
+		
+		return dog;
+	}
+
+	public void addCart(HttpServletRequest request, Dog cartDog) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

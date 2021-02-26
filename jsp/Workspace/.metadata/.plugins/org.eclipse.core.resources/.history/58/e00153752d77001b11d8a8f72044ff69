@@ -1,0 +1,19 @@
+package dao;
+
+import java.sql.Connection;
+import javax.sql.DataSource;
+
+public class DogDAO {
+	DataSource ds;
+	Connection con;
+	private static DogDAO dogDAO;
+	private DogDAO() {}
+	
+	public static DogDAO getInstance() {
+		if(dogDAO == null) {
+			dogDAO = new DogDAO();
+		}
+		return dogDAO;
+	}
+	
+}

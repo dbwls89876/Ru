@@ -1,0 +1,28 @@
+package svc;
+
+import static db.JdbcUtil.*;
+import java.sql.Connection;
+import java.util.ArrayList;
+
+import dao.DogDAO;
+import vo.Dog;
+
+public class dogListService {
+
+	public ArrayList<Dog> getDogList() {
+		// TODO Auto-generated method stub
+		Connection con = null;
+		
+		try {
+			DogDAO dogDAO = DogDAO.getInstance();
+			con = get
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}finally {
+			close(con);
+		}
+		return dogList;
+	}
+	
+}

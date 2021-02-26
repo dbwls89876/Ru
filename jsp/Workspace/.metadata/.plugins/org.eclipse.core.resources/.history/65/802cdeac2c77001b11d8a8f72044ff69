@@ -1,0 +1,28 @@
+package svc;
+
+import static db.JdbcUtil.*;
+import java.sql.Connection;
+
+public class DogRegistService {
+	public boolean registDog(Dog dog) {
+		DogDAO dogDAO = DogDAO.getInstance();
+		Connection con = getConnection();
+		dogDAO.setConnection(con);
+		boolean isRegistSuccess = false;
+		int insertCount = dogDAO.insertDog(dog);
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}finally {
+			close(con);
+		}
+		
+		if(insertCount>0) {
+			commit(con);
+			isRegistSuccess = true;
+		}else {
+			rollback(con);
+		}
+	}
+}

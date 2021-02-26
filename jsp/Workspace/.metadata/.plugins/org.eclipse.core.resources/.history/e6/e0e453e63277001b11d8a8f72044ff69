@@ -1,0 +1,12 @@
+package svc;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class DogCartQtyDownService {
+
+	public void downCartQty(String kind, HttpServletRequest request) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

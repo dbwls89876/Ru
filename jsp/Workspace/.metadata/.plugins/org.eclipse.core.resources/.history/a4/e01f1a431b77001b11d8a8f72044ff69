@@ -1,0 +1,27 @@
+package vo;
+
+public class Dog {
+	private int id;
+	private String kind;
+	private int price;
+	private String image;
+	private String country;
+	private  int height;
+	private int weight;
+	private String content;
+	private int readCount;
+	
+	public Dog(int id, String kind, int price, String image, String country, int height, int weight, String content,
+			int readCount) {
+		super();
+		this.id = id;
+		this.kind = kind;
+		this.price = price;
+		this.image = image;
+		this.country = country;
+		this.height = height;
+		this.weight = weight;
+		this.content = content;
+		this.readCount = readCount;
+	}
+}

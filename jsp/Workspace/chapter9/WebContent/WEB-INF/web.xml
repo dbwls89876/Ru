@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<error-page>
+	<error-code>500</error-code>
+	<location>/500.jsp</location>
+</error-page>
+<error-page>
+	<error-code>404</error-code>
+	<location>/404.jsp</location>
+</error-page>
+<error-page>
+	<excoption-type>java.lang.NullPointerException</excoption-type>
+	<location>/null.jsp</location>
+</error-page>
+</web-app>

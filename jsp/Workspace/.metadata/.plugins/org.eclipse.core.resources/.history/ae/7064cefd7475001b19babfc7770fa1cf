@@ -1,0 +1,12 @@
+package svc;
+
+import vo.MemberBean;
+
+public class MemberModProSvc {
+
+	public static boolean modifyMember(MemberBean member) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

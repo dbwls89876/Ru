@@ -1,0 +1,12 @@
+package svc;
+
+import vo.MemberBean;
+
+public class MemberInfoSvc {
+
+	public MemberBean getMember(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

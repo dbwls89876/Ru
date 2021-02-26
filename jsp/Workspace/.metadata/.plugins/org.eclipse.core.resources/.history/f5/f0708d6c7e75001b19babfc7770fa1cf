@@ -1,0 +1,10 @@
+package svc;
+
+import static db.JdbcUtil.*;
+
+import java.sql.Connection;
+
+public class MemberDelSvc {
+	boolean isDeleteSuccess = false;
+	Connection con = null;
+}

@@ -1,0 +1,32 @@
+package action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import vo.ActionForward;
+import vo.MemberBean;
+
+public class JoinProAction implements Action {
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		ActionForward forward = null;
+		MemberBean member = new MemberBean();
+		member.setId(request.getParameter("id"));
+		member.setPassword(request.getParameter("password"));
+		member.setName("name");
+		member.setAge(Integer.parseInt(!(request.getParameter("age")==null)
+				||request.getParameter("age").equals(""))?request.getParameter(name));
+		member.setGender(request.getParameter("gender"));
+		member.setEmail(request.getParameter("email"));
+		JoinProSvc joinProSvc = new JoinProSvc();
+		boolean isJoinSuccess = joinProSvc.joinMember(member);
+		if(isJoinSuccess) {
+			
+		}else {
+			response.setContentType("text/html;charset=utf-8");
+		}
+		return forward;
+	}
+
+}
