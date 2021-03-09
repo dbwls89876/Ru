@@ -6,7 +6,13 @@
 <script src="js/jquery.js"></script>
 <script>
 $(function(){
-	
+	$(".wrap_1 p:first").text("내용1");
+
+	$(".wrap_1 p.active").removeClass("active").addClass("on");
+
+	$(".wrap_2 p:first").after("<p>After(추가1)</p>");
+		$(".wrap_2 p:first").before("<p>Before(추가2)</p>");
+
 });
 </script>
 </head>
