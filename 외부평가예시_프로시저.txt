@@ -1,0 +1,65 @@
+저장 프로시저
+create drocedure
+선언부
+매개변수 형식 - 입력 매개변수 : IN,    매개변수명 , 자료형
+                  - 출력 매개변수 : OUT, 매개변수명 , 자료형
+본문
+begin
+
+end
+//
+delimite;
+
+call 프로시저명(값)
+값 - 입력파라미터 : 값
+    - 출력파라미터 : 변수
+
+testProc1(in name varchar(15), in age int, out cnt int)
+call testProc1('홍길동',20,@cnt)
+
+
+delimiter //
+create procedure totalprice(in pname varchar(20), out tprice int)
+begin
+select sum(price) into tprice from product01
+where p_name like pname;
+end
+//
+
+call totalprice('마우스', @tprice);
+select @tprice
+
+제품 코드와 개수를 입력받아 총 금액을 출력하는 프로시저
+
+delimiter //
+create procedure totalcost(in pcode varchar(5), in qty int, out cost int)
+begin
+select qty*price into cost from product01
+where p_code = pcode;
+end
+//
+
+call totalcost('p1001', 3, @cost);
+
+사원번호, 근속연수 입력
+
+CREATE TABLE IF NOT EXISTS `mydb`.`order` (
+  `orderNum` VARCHAR(5) NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `date` DATE NOT NULL,
+  PRIMARY KEY (`orderNum`))
+
+
+CREATE TABLE IF NOT EXISTS `mydb`.`product` (
+  `productNum` INT NOT NULL,
+  `orderNum` VARCHAR(5) NOT NULL,
+  `product` VARCHAR(45) NOT NULL,
+  `qty` INT NOT NULL,
+  PRIMARY KEY (`productNum`),
+  INDEX `orderNum_idx` (`orderNum` ASC) VISIBLE,
+  CONSTRAINT `orderNum`
+    FOREIGN KEY (`orderNum`)
+    REFERENCES `mydb`.`order` (`orderNum`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
