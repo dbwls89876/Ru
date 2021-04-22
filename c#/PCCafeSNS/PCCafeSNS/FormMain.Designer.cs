@@ -295,7 +295,6 @@
             this.Controls.Add(this.buttonUserInfo);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "FormMain";
-            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.Load += new System.EventHandler(this.FormMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUserImage)).EndInit();
