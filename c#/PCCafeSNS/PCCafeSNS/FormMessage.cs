@@ -11,7 +11,7 @@ using MetroFramework.Forms;
 
 namespace PCCafeSNS
 {
-    public partial class FormMessage : Form
+    public partial class FormMessage : MetroForm
     {
         private FormMain fm;
         DataTable Receive;

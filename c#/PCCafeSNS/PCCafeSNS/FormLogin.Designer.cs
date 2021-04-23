@@ -41,7 +41,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 30F);
-            this.label3.Location = new System.Drawing.Point(27, 22);
+            this.label3.Location = new System.Drawing.Point(23, 37);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(154, 40);
             this.label3.TabIndex = 19;
@@ -123,7 +123,6 @@
             this.Controls.Add(this.textBoxID);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "FormLogin";
-            this.Text = "FormLogin";
             this.Load += new System.EventHandler(this.FormLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

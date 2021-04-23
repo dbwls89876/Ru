@@ -51,7 +51,7 @@
             this.buttonGroupCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGroupCreate.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonGroupCreate.ForeColor = System.Drawing.Color.White;
-            this.buttonGroupCreate.Location = new System.Drawing.Point(454, 47);
+            this.buttonGroupCreate.Location = new System.Drawing.Point(461, 110);
             this.buttonGroupCreate.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGroupCreate.Name = "buttonGroupCreate";
             this.buttonGroupCreate.Size = new System.Drawing.Size(88, 28);
@@ -63,7 +63,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(61, 60);
+            this.label1.Location = new System.Drawing.Point(68, 123);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
@@ -73,7 +73,7 @@
             // dataGridViewGrouplist
             // 
             this.dataGridViewGrouplist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewGrouplist.Location = new System.Drawing.Point(46, 182);
+            this.dataGridViewGrouplist.Location = new System.Drawing.Point(53, 245);
             this.dataGridViewGrouplist.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewGrouplist.Name = "dataGridViewGrouplist";
             this.dataGridViewGrouplist.RowTemplate.Height = 30;
@@ -83,7 +83,7 @@
             // 
             // textBoxMyGroupname
             // 
-            this.textBoxMyGroupname.Location = new System.Drawing.Point(140, 53);
+            this.textBoxMyGroupname.Location = new System.Drawing.Point(147, 116);
             this.textBoxMyGroupname.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMyGroupname.Name = "textBoxMyGroupname";
             this.textBoxMyGroupname.Size = new System.Drawing.Size(108, 21);
@@ -91,7 +91,7 @@
             // 
             // textBoxGroupSearchKeword
             // 
-            this.textBoxGroupSearchKeword.Location = new System.Drawing.Point(46, 110);
+            this.textBoxGroupSearchKeword.Location = new System.Drawing.Point(53, 173);
             this.textBoxGroupSearchKeword.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxGroupSearchKeword.Name = "textBoxGroupSearchKeword";
             this.textBoxGroupSearchKeword.Size = new System.Drawing.Size(308, 21);
@@ -100,7 +100,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 149);
+            this.label2.Location = new System.Drawing.Point(51, 212);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 12);
@@ -114,7 +114,7 @@
             this.buttonGroupSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGroupSearch.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonGroupSearch.ForeColor = System.Drawing.Color.White;
-            this.buttonGroupSearch.Location = new System.Drawing.Point(454, 104);
+            this.buttonGroupSearch.Location = new System.Drawing.Point(461, 167);
             this.buttonGroupSearch.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGroupSearch.Name = "buttonGroupSearch";
             this.buttonGroupSearch.Size = new System.Drawing.Size(88, 28);
@@ -165,7 +165,7 @@
             this.buttonRfreshgrouplist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRfreshgrouplist.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonRfreshgrouplist.ForeColor = System.Drawing.Color.White;
-            this.buttonRfreshgrouplist.Location = new System.Drawing.Point(454, 146);
+            this.buttonRfreshgrouplist.Location = new System.Drawing.Point(461, 209);
             this.buttonRfreshgrouplist.Margin = new System.Windows.Forms.Padding(2);
             this.buttonRfreshgrouplist.Name = "buttonRfreshgrouplist";
             this.buttonRfreshgrouplist.Size = new System.Drawing.Size(88, 25);
@@ -178,7 +178,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(631, 419);
+            this.ClientSize = new System.Drawing.Size(631, 471);
             this.Controls.Add(this.buttonRfreshgrouplist);
             this.Controls.Add(this.buttonGroupSearch);
             this.Controls.Add(this.label2);

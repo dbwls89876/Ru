@@ -38,7 +38,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 74);
+            this.label1.Location = new System.Drawing.Point(52, 97);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 12);
@@ -48,8 +48,8 @@
             // dataGridViewUserlist
             // 
             this.dataGridViewUserlist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewUserlist.Location = new System.Drawing.Point(55, 100);
-            this.dataGridViewUserlist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewUserlist.Location = new System.Drawing.Point(55, 123);
+            this.dataGridViewUserlist.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewUserlist.Name = "dataGridViewUserlist";
             this.dataGridViewUserlist.RowTemplate.Height = 30;
             this.dataGridViewUserlist.Size = new System.Drawing.Size(541, 259);
@@ -64,8 +64,8 @@
             this.buttonSecession.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSecession.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonSecession.ForeColor = System.Drawing.Color.White;
-            this.buttonSecession.Location = new System.Drawing.Point(70, 407);
-            this.buttonSecession.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSecession.Location = new System.Drawing.Point(70, 430);
+            this.buttonSecession.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSecession.Name = "buttonSecession";
             this.buttonSecession.Size = new System.Drawing.Size(503, 33);
             this.buttonSecession.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 15F);
-            this.label2.Location = new System.Drawing.Point(238, 21);
+            this.label2.Location = new System.Drawing.Point(238, 44);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(183, 20);
@@ -93,9 +93,9 @@
             this.Controls.Add(this.buttonSecession);
             this.Controls.Add(this.dataGridViewUserlist);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormGroupmanagersecession";
-            this.Padding = new System.Windows.Forms.Padding(14, 40, 14, 13);
+            this.Padding = new System.Windows.Forms.Padding(14, 60, 14, 13);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUserlist)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -44,7 +44,7 @@
             // 
             // txtSearchContents
             // 
-            this.txtSearchContents.Location = new System.Drawing.Point(183, 22);
+            this.txtSearchContents.Location = new System.Drawing.Point(183, 49);
             this.txtSearchContents.Name = "txtSearchContents";
             this.txtSearchContents.Size = new System.Drawing.Size(450, 21);
             this.txtSearchContents.TabIndex = 1;
@@ -59,7 +59,7 @@
             this.columnDate});
             this.listViewPost.FullRowSelect = true;
             this.listViewPost.HideSelection = false;
-            this.listViewPost.Location = new System.Drawing.Point(56, 94);
+            this.listViewPost.Location = new System.Drawing.Point(56, 121);
             this.listViewPost.Name = "listViewPost";
             this.listViewPost.Size = new System.Drawing.Size(669, 293);
             this.listViewPost.TabIndex = 5;
@@ -98,7 +98,7 @@
             this.buttonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSearch.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonSearch.ForeColor = System.Drawing.Color.White;
-            this.buttonSearch.Location = new System.Drawing.Point(650, 22);
+            this.buttonSearch.Location = new System.Drawing.Point(650, 49);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(75, 23);
             this.buttonSearch.TabIndex = 6;
@@ -109,7 +109,7 @@
             // checkBoxFollower
             // 
             this.checkBoxFollower.AutoSize = true;
-            this.checkBoxFollower.Location = new System.Drawing.Point(56, 65);
+            this.checkBoxFollower.Location = new System.Drawing.Point(56, 92);
             this.checkBoxFollower.Name = "checkBoxFollower";
             this.checkBoxFollower.Size = new System.Drawing.Size(116, 16);
             this.checkBoxFollower.TabIndex = 7;
@@ -123,7 +123,7 @@
             this.buttonWriteBoard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonWriteBoard.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonWriteBoard.ForeColor = System.Drawing.Color.White;
-            this.buttonWriteBoard.Location = new System.Drawing.Point(650, 65);
+            this.buttonWriteBoard.Location = new System.Drawing.Point(650, 92);
             this.buttonWriteBoard.Name = "buttonWriteBoard";
             this.buttonWriteBoard.Size = new System.Drawing.Size(75, 23);
             this.buttonWriteBoard.TabIndex = 8;
@@ -138,7 +138,7 @@
             "제목",
             "내용",
             "작성자"});
-            this.comboBoxKeyword.Location = new System.Drawing.Point(56, 22);
+            this.comboBoxKeyword.Location = new System.Drawing.Point(56, 49);
             this.comboBoxKeyword.Name = "comboBoxKeyword";
             this.comboBoxKeyword.Size = new System.Drawing.Size(121, 20);
             this.comboBoxKeyword.TabIndex = 9;
@@ -147,7 +147,7 @@
             // checkBoxMine
             // 
             this.checkBoxMine.AutoSize = true;
-            this.checkBoxMine.Location = new System.Drawing.Point(183, 65);
+            this.checkBoxMine.Location = new System.Drawing.Point(183, 92);
             this.checkBoxMine.Name = "checkBoxMine";
             this.checkBoxMine.Size = new System.Drawing.Size(80, 16);
             this.checkBoxMine.TabIndex = 10;

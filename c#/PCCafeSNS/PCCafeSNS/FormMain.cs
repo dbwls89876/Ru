@@ -29,7 +29,7 @@ namespace PCCafeSNS
 
         private void UpdateImage()
         {
-            if (User.image != null)
+            if (User.image != null) // 유저 이미지가 null이 아니라면 유저 이미지가 보여지게 된다.
             {
                 pictureBoxUserImage.Image = User.image;
                 pictureBoxUserImage.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -58,7 +58,7 @@ namespace PCCafeSNS
 
         private void buttonSearchUser_Click(object sender, EventArgs e)
         {
-            FormSearchUser fsu = new FormSearchUser();
+            FormSearchUser fsu = new FormSearchUser(); // 유저 검색 창이 열린다.
             fsu.Show();
             buttonSearchUser.Enabled = false;
             fsu.FormClosing+= delegate (object s, FormClosingEventArgs E)
@@ -71,7 +71,7 @@ namespace PCCafeSNS
 
         private void buttonBoard_Click(object sender, EventArgs e)
         {
-            FormBoard fb = new FormBoard();
+            FormBoard fb = new FormBoard(); // 게시판 창이 열린다.
             fb.Show();
             buttonBoard.Enabled = false;
             fb.FormClosing += delegate (object s, FormClosingEventArgs E)
@@ -94,7 +94,7 @@ namespace PCCafeSNS
 
         private void RefreshComment()
         {
-            DataTable dt = DBManager.getInstance().Query($"SELECT commentID,contents FROM COMMENT WHERE userID='{User.ID}' ORDER BY writtenDate DESC Limit 2");
+            DataTable dt = DBManager.getInstance().Query($"SELECT commentID,contents FROM COMMENT WHERE userID='{User.ID}' ORDER BY writtenDate DESC Limit 2"); // 가장 최근에 달린 댓글이 보여진다.
             listViewRecentComment.Items.Clear();
             foreach(DataRow dr in dt.Rows)
             {

@@ -42,7 +42,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(86, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(85, 38);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(144, 174);
             this.pictureBox1.TabIndex = 0;
@@ -51,7 +51,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 212);
+            this.label1.Location = new System.Drawing.Point(32, 238);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             // textBoxID
             // 
-            this.textBoxID.Location = new System.Drawing.Point(86, 209);
+            this.textBoxID.Location = new System.Drawing.Point(85, 235);
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.ReadOnly = true;
             this.textBoxID.Size = new System.Drawing.Size(144, 21);
@@ -68,7 +68,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 247);
+            this.label2.Location = new System.Drawing.Point(34, 273);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 3;
@@ -76,7 +76,7 @@
             // 
             // textBoxRegion
             // 
-            this.textBoxRegion.Location = new System.Drawing.Point(86, 244);
+            this.textBoxRegion.Location = new System.Drawing.Point(85, 270);
             this.textBoxRegion.Name = "textBoxRegion";
             this.textBoxRegion.ReadOnly = true;
             this.textBoxRegion.Size = new System.Drawing.Size(144, 21);
@@ -89,7 +89,7 @@
             this.buttonFollow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFollow.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonFollow.ForeColor = System.Drawing.Color.White;
-            this.buttonFollow.Location = new System.Drawing.Point(117, 318);
+            this.buttonFollow.Location = new System.Drawing.Point(116, 344);
             this.buttonFollow.Name = "buttonFollow";
             this.buttonFollow.Size = new System.Drawing.Size(80, 23);
             this.buttonFollow.TabIndex = 5;
@@ -104,7 +104,7 @@
             this.buttonSendMessage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSendMessage.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonSendMessage.ForeColor = System.Drawing.Color.White;
-            this.buttonSendMessage.Location = new System.Drawing.Point(117, 347);
+            this.buttonSendMessage.Location = new System.Drawing.Point(116, 373);
             this.buttonSendMessage.Name = "buttonSendMessage";
             this.buttonSendMessage.Size = new System.Drawing.Size(80, 23);
             this.buttonSendMessage.TabIndex = 6;
@@ -115,7 +115,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 278);
+            this.label3.Location = new System.Drawing.Point(35, 304);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 12);
             this.label3.TabIndex = 7;
@@ -123,7 +123,7 @@
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(86, 275);
+            this.textBoxEmail.Location = new System.Drawing.Point(85, 301);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.ReadOnly = true;
             this.textBoxEmail.Size = new System.Drawing.Size(144, 21);

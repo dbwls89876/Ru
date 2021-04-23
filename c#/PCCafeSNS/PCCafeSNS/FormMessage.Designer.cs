@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 44);
+            this.label1.Location = new System.Drawing.Point(50, 71);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 12);
             this.label1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 254);
+            this.label2.Location = new System.Drawing.Point(50, 281);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 12);
             this.label2.TabIndex = 1;
@@ -68,7 +68,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 464);
+            this.label3.Location = new System.Drawing.Point(50, 491);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 12);
             this.label3.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(86, 479);
+            this.listBox1.Location = new System.Drawing.Point(85, 506);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(577, 100);
             this.listBox1.TabIndex = 4;
@@ -90,7 +90,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(628, 12);
+            this.button1.Location = new System.Drawing.Point(627, 39);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
@@ -108,7 +108,7 @@
             this.columnReceiveTime});
             this.listViewSend.FullRowSelect = true;
             this.listViewSend.HideSelection = false;
-            this.listViewSend.Location = new System.Drawing.Point(86, 71);
+            this.listViewSend.Location = new System.Drawing.Point(85, 98);
             this.listViewSend.Name = "listViewSend";
             this.listViewSend.Size = new System.Drawing.Size(577, 162);
             this.listViewSend.TabIndex = 6;
@@ -150,7 +150,7 @@
             this.columnReceiverReceiveTime});
             this.listViewReceive.FullRowSelect = true;
             this.listViewReceive.HideSelection = false;
-            this.listViewReceive.Location = new System.Drawing.Point(86, 282);
+            this.listViewReceive.Location = new System.Drawing.Point(85, 309);
             this.listViewReceive.Name = "listViewReceive";
             this.listViewReceive.Size = new System.Drawing.Size(577, 166);
             this.listViewReceive.TabIndex = 7;
@@ -187,7 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(727, 601);
+            this.ClientSize = new System.Drawing.Size(727, 625);
             this.Controls.Add(this.listViewReceive);
             this.Controls.Add(this.listViewSend);
             this.Controls.Add(this.button1);
@@ -196,7 +196,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormMessage";
-            this.Text = "FormMessage";
             this.Load += new System.EventHandler(this.FormMessage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

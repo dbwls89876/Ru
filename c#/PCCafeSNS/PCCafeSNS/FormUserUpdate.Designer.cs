@@ -46,7 +46,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.Location = new System.Drawing.Point(34, 199);
+            this.label4.Location = new System.Drawing.Point(36, 234);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 12);
             this.label4.TabIndex = 27;
@@ -56,7 +56,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(33, 226);
+            this.label3.Location = new System.Drawing.Point(35, 261);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 12);
             this.label3.TabIndex = 26;
@@ -64,21 +64,21 @@
             // 
             // textBoxRegion
             // 
-            this.textBoxRegion.Location = new System.Drawing.Point(90, 226);
+            this.textBoxRegion.Location = new System.Drawing.Point(92, 261);
             this.textBoxRegion.Name = "textBoxRegion";
             this.textBoxRegion.Size = new System.Drawing.Size(114, 21);
             this.textBoxRegion.TabIndex = 25;
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(90, 199);
+            this.textBoxEmail.Location = new System.Drawing.Point(92, 234);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(114, 21);
             this.textBoxEmail.TabIndex = 24;
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(90, 169);
+            this.textBoxPassword.Location = new System.Drawing.Point(92, 204);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(114, 21);
             this.textBoxPassword.TabIndex = 23;
@@ -90,7 +90,7 @@
             this.buttonUserUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonUserUpdate.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonUserUpdate.ForeColor = System.Drawing.Color.White;
-            this.buttonUserUpdate.Location = new System.Drawing.Point(80, 268);
+            this.buttonUserUpdate.Location = new System.Drawing.Point(82, 303);
             this.buttonUserUpdate.Name = "buttonUserUpdate";
             this.buttonUserUpdate.Size = new System.Drawing.Size(86, 23);
             this.buttonUserUpdate.TabIndex = 21;
@@ -102,7 +102,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(57, 172);
+            this.label2.Location = new System.Drawing.Point(59, 207);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(23, 12);
             this.label2.TabIndex = 20;
@@ -110,7 +110,7 @@
             // 
             // textBoxPasswordCheck
             // 
-            this.textBoxPasswordCheck.Location = new System.Drawing.Point(90, 142);
+            this.textBoxPasswordCheck.Location = new System.Drawing.Point(92, 177);
             this.textBoxPasswordCheck.Name = "textBoxPasswordCheck";
             this.textBoxPasswordCheck.Size = new System.Drawing.Size(114, 21);
             this.textBoxPasswordCheck.TabIndex = 28;
@@ -119,7 +119,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(16, 145);
+            this.label1.Location = new System.Drawing.Point(18, 180);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 12);
             this.label1.TabIndex = 29;
@@ -127,7 +127,7 @@
             // 
             // pictureBoxUserImage
             // 
-            this.pictureBoxUserImage.Location = new System.Drawing.Point(80, 12);
+            this.pictureBoxUserImage.Location = new System.Drawing.Point(82, 47);
             this.pictureBoxUserImage.Name = "pictureBoxUserImage";
             this.pictureBoxUserImage.Size = new System.Drawing.Size(86, 75);
             this.pictureBoxUserImage.TabIndex = 30;
@@ -141,7 +141,7 @@
             this.buttonImageLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonImageLoad.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonImageLoad.ForeColor = System.Drawing.Color.White;
-            this.buttonImageLoad.Location = new System.Drawing.Point(80, 93);
+            this.buttonImageLoad.Location = new System.Drawing.Point(82, 128);
             this.buttonImageLoad.Name = "buttonImageLoad";
             this.buttonImageLoad.Size = new System.Drawing.Size(86, 23);
             this.buttonImageLoad.TabIndex = 31;
@@ -169,7 +169,6 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "FormUserUpdate";
             this.Padding = new System.Windows.Forms.Padding(23, 60, 23, 20);
-            this.Text = "FormUserUpdate";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUserImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -47,7 +47,7 @@
             this.buttonUserUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonUserUpdate.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonUserUpdate.ForeColor = System.Drawing.Color.White;
-            this.buttonUserUpdate.Location = new System.Drawing.Point(125, 12);
+            this.buttonUserUpdate.Location = new System.Drawing.Point(124, 35);
             this.buttonUserUpdate.Name = "buttonUserUpdate";
             this.buttonUserUpdate.Size = new System.Drawing.Size(102, 41);
             this.buttonUserUpdate.TabIndex = 0;
@@ -57,7 +57,7 @@
             // 
             // pictureBoxUserImage
             // 
-            this.pictureBoxUserImage.Location = new System.Drawing.Point(12, 12);
+            this.pictureBoxUserImage.Location = new System.Drawing.Point(11, 35);
             this.pictureBoxUserImage.Name = "pictureBoxUserImage";
             this.pictureBoxUserImage.Size = new System.Drawing.Size(75, 75);
             this.pictureBoxUserImage.TabIndex = 2;
@@ -66,7 +66,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 101);
+            this.label1.Location = new System.Drawing.Point(9, 124);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 12);
             this.label1.TabIndex = 3;
@@ -75,7 +75,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 219);
+            this.label2.Location = new System.Drawing.Point(7, 242);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 12);
             this.label2.TabIndex = 4;
@@ -85,7 +85,7 @@
             // 
             this.listBoxFollow.FormattingEnabled = true;
             this.listBoxFollow.ItemHeight = 12;
-            this.listBoxFollow.Location = new System.Drawing.Point(12, 116);
+            this.listBoxFollow.Location = new System.Drawing.Point(11, 139);
             this.listBoxFollow.Name = "listBoxFollow";
             this.listBoxFollow.Size = new System.Drawing.Size(213, 88);
             this.listBoxFollow.TabIndex = 5;
@@ -94,14 +94,14 @@
             // 
             this.listBoxUnFollow.FormattingEnabled = true;
             this.listBoxUnFollow.ItemHeight = 12;
-            this.listBoxUnFollow.Location = new System.Drawing.Point(10, 234);
+            this.listBoxUnFollow.Location = new System.Drawing.Point(9, 257);
             this.listBoxUnFollow.Name = "listBoxUnFollow";
             this.listBoxUnFollow.Size = new System.Drawing.Size(215, 88);
             this.listBoxUnFollow.TabIndex = 6;
             // 
             // buttonUnFollow
             // 
-            this.buttonUnFollow.Location = new System.Drawing.Point(152, 446);
+            this.buttonUnFollow.Location = new System.Drawing.Point(151, 469);
             this.buttonUnFollow.Name = "buttonUnFollow";
             this.buttonUnFollow.Size = new System.Drawing.Size(75, 23);
             this.buttonUnFollow.TabIndex = 7;
@@ -113,7 +113,7 @@
             // 
             this.listBoxUserFollow.FormattingEnabled = true;
             this.listBoxUserFollow.ItemHeight = 12;
-            this.listBoxUserFollow.Location = new System.Drawing.Point(10, 352);
+            this.listBoxUserFollow.Location = new System.Drawing.Point(9, 375);
             this.listBoxUserFollow.Name = "listBoxUserFollow";
             this.listBoxUserFollow.Size = new System.Drawing.Size(215, 88);
             this.listBoxUserFollow.TabIndex = 8;
@@ -121,7 +121,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 337);
+            this.label3.Location = new System.Drawing.Point(7, 360);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 12);
             this.label3.TabIndex = 9;
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(247, 482);
+            this.ClientSize = new System.Drawing.Size(247, 504);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.listBoxUserFollow);
             this.Controls.Add(this.buttonUnFollow);

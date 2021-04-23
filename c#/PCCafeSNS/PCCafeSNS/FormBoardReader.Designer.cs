@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 25);
+            this.label1.Location = new System.Drawing.Point(20, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             // textBoxTitle
             // 
-            this.textBoxTitle.Location = new System.Drawing.Point(58, 22);
+            this.textBoxTitle.Location = new System.Drawing.Point(55, 36);
             this.textBoxTitle.Name = "textBoxTitle";
             this.textBoxTitle.ReadOnly = true;
             this.textBoxTitle.Size = new System.Drawing.Size(273, 21);
@@ -67,7 +67,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 49);
+            this.label2.Location = new System.Drawing.Point(22, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             // richTextBoxContents
             // 
-            this.richTextBoxContents.Location = new System.Drawing.Point(345, 49);
+            this.richTextBoxContents.Location = new System.Drawing.Point(342, 63);
             this.richTextBoxContents.Name = "richTextBoxContents";
             this.richTextBoxContents.ReadOnly = true;
             this.richTextBoxContents.Size = new System.Drawing.Size(273, 267);
@@ -84,7 +84,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(58, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(55, 64);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(273, 266);
             this.pictureBox1.TabIndex = 5;
@@ -99,7 +99,7 @@
             this.columnWrittenDate});
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(58, 341);
+            this.listView1.Location = new System.Drawing.Point(55, 355);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(560, 91);
             this.listView1.TabIndex = 6;
@@ -128,7 +128,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(58, 438);
+            this.textBox1.Location = new System.Drawing.Point(55, 452);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(479, 21);
             this.textBox1.TabIndex = 7;
@@ -141,7 +141,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(543, 438);
+            this.button1.Location = new System.Drawing.Point(540, 452);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 8;
@@ -156,7 +156,7 @@
             this.buttonRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRefresh.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonRefresh.ForeColor = System.Drawing.Color.White;
-            this.buttonRefresh.Location = new System.Drawing.Point(624, 341);
+            this.buttonRefresh.Location = new System.Drawing.Point(621, 355);
             this.buttonRefresh.Name = "buttonRefresh";
             this.buttonRefresh.Size = new System.Drawing.Size(72, 23);
             this.buttonRefresh.TabIndex = 9;
@@ -167,7 +167,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(343, 25);
+            this.label3.Location = new System.Drawing.Point(340, 39);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 12);
             this.label3.TabIndex = 10;
@@ -175,7 +175,7 @@
             // 
             // textBoxWriter
             // 
-            this.textBoxWriter.Location = new System.Drawing.Point(391, 22);
+            this.textBoxWriter.Location = new System.Drawing.Point(388, 36);
             this.textBoxWriter.Name = "textBoxWriter";
             this.textBoxWriter.ReadOnly = true;
             this.textBoxWriter.Size = new System.Drawing.Size(227, 21);
@@ -188,7 +188,7 @@
             this.buttonModify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonModify.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonModify.ForeColor = System.Drawing.Color.White;
-            this.buttonModify.Location = new System.Drawing.Point(625, 19);
+            this.buttonModify.Location = new System.Drawing.Point(622, 33);
             this.buttonModify.Name = "buttonModify";
             this.buttonModify.Size = new System.Drawing.Size(71, 23);
             this.buttonModify.TabIndex = 12;

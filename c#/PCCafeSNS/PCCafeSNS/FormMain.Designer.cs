@@ -76,7 +76,7 @@
             this.buttonUserInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonUserInfo.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold);
             this.buttonUserInfo.ForeColor = System.Drawing.Color.White;
-            this.buttonUserInfo.Location = new System.Drawing.Point(467, 93);
+            this.buttonUserInfo.Location = new System.Drawing.Point(466, 134);
             this.buttonUserInfo.Name = "buttonUserInfo";
             this.buttonUserInfo.Size = new System.Drawing.Size(75, 23);
             this.buttonUserInfo.TabIndex = 0;
@@ -86,7 +86,7 @@
             // 
             // pictureBoxUserImage
             // 
-            this.pictureBoxUserImage.Location = new System.Drawing.Point(467, 12);
+            this.pictureBoxUserImage.Location = new System.Drawing.Point(466, 53);
             this.pictureBoxUserImage.Name = "pictureBoxUserImage";
             this.pictureBoxUserImage.Size = new System.Drawing.Size(75, 75);
             this.pictureBoxUserImage.TabIndex = 1;
@@ -100,7 +100,7 @@
             this.buttonSearchUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSearchUser.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold);
             this.buttonSearchUser.ForeColor = System.Drawing.Color.White;
-            this.buttonSearchUser.Location = new System.Drawing.Point(467, 122);
+            this.buttonSearchUser.Location = new System.Drawing.Point(466, 163);
             this.buttonSearchUser.Name = "buttonSearchUser";
             this.buttonSearchUser.Size = new System.Drawing.Size(75, 40);
             this.buttonSearchUser.TabIndex = 2;
@@ -116,7 +116,7 @@
             this.buttonBoard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonBoard.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold);
             this.buttonBoard.ForeColor = System.Drawing.Color.White;
-            this.buttonBoard.Location = new System.Drawing.Point(87, 384);
+            this.buttonBoard.Location = new System.Drawing.Point(86, 425);
             this.buttonBoard.Name = "buttonBoard";
             this.buttonBoard.Size = new System.Drawing.Size(75, 23);
             this.buttonBoard.TabIndex = 4;
@@ -132,7 +132,7 @@
             this.buttonClub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonClub.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold);
             this.buttonClub.ForeColor = System.Drawing.Color.White;
-            this.buttonClub.Location = new System.Drawing.Point(238, 384);
+            this.buttonClub.Location = new System.Drawing.Point(237, 425);
             this.buttonClub.Name = "buttonClub";
             this.buttonClub.Size = new System.Drawing.Size(75, 23);
             this.buttonClub.TabIndex = 5;
@@ -148,7 +148,7 @@
             this.buttonNotice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonNotice.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold);
             this.buttonNotice.ForeColor = System.Drawing.Color.White;
-            this.buttonNotice.Location = new System.Drawing.Point(414, 384);
+            this.buttonNotice.Location = new System.Drawing.Point(413, 425);
             this.buttonNotice.Name = "buttonNotice";
             this.buttonNotice.Size = new System.Drawing.Size(75, 23);
             this.buttonNotice.TabIndex = 6;
@@ -159,7 +159,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(134, 149);
+            this.label1.Location = new System.Drawing.Point(133, 190);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 12);
             this.label1.TabIndex = 9;
@@ -168,7 +168,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(134, 271);
+            this.label2.Location = new System.Drawing.Point(133, 312);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 12);
             this.label2.TabIndex = 10;
@@ -181,7 +181,7 @@
             this.columnTitle});
             this.listViewRecentPost.FullRowSelect = true;
             this.listViewRecentPost.HideSelection = false;
-            this.listViewRecentPost.Location = new System.Drawing.Point(40, 175);
+            this.listViewRecentPost.Location = new System.Drawing.Point(39, 216);
             this.listViewRecentPost.Name = "listViewRecentPost";
             this.listViewRecentPost.Size = new System.Drawing.Size(397, 77);
             this.listViewRecentPost.TabIndex = 11;
@@ -206,7 +206,7 @@
             this.columnComment});
             this.listViewRecentComment.FullRowSelect = true;
             this.listViewRecentComment.HideSelection = false;
-            this.listViewRecentComment.Location = new System.Drawing.Point(40, 286);
+            this.listViewRecentComment.Location = new System.Drawing.Point(39, 327);
             this.listViewRecentComment.Name = "listViewRecentComment";
             this.listViewRecentComment.Size = new System.Drawing.Size(397, 72);
             this.listViewRecentComment.TabIndex = 12;
@@ -226,7 +226,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(135, 16);
+            this.label3.Location = new System.Drawing.Point(134, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 12);
             this.label3.TabIndex = 14;
@@ -239,7 +239,7 @@
             this.columnGenre,
             this.columnRatio});
             this.listViewGameRank.HideSelection = false;
-            this.listViewGameRank.Location = new System.Drawing.Point(40, 41);
+            this.listViewGameRank.Location = new System.Drawing.Point(39, 82);
             this.listViewGameRank.Name = "listViewGameRank";
             this.listViewGameRank.Size = new System.Drawing.Size(397, 97);
             this.listViewGameRank.TabIndex = 15;
@@ -262,12 +262,12 @@
             // 
             // buttonLogout
             // 
-            this.buttonLogout.BackColor = System.Drawing.Color.SkyBlue;
+            this.buttonLogout.BackColor = System.Drawing.Color.LightSkyBlue;
             this.buttonLogout.FlatAppearance.BorderSize = 0;
             this.buttonLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogout.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonLogout.ForeColor = System.Drawing.Color.White;
-            this.buttonLogout.Location = new System.Drawing.Point(12, 11);
+            this.buttonLogout.Location = new System.Drawing.Point(11, 52);
             this.buttonLogout.Name = "buttonLogout";
             this.buttonLogout.Size = new System.Drawing.Size(75, 23);
             this.buttonLogout.TabIndex = 16;

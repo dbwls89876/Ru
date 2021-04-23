@@ -40,7 +40,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 15F);
-            this.label1.Location = new System.Drawing.Point(44, 25);
+            this.label1.Location = new System.Drawing.Point(52, 54);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 20);
@@ -55,8 +55,8 @@
             this.buttonGroupmessageall.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGroupmessageall.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold);
             this.buttonGroupmessageall.ForeColor = System.Drawing.Color.White;
-            this.buttonGroupmessageall.Location = new System.Drawing.Point(48, 150);
-            this.buttonGroupmessageall.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonGroupmessageall.Location = new System.Drawing.Point(56, 179);
+            this.buttonGroupmessageall.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGroupmessageall.Name = "buttonGroupmessageall";
             this.buttonGroupmessageall.Size = new System.Drawing.Size(150, 27);
             this.buttonGroupmessageall.TabIndex = 1;
@@ -72,8 +72,8 @@
             this.buttonGroupdelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGroupdelete.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold);
             this.buttonGroupdelete.ForeColor = System.Drawing.Color.White;
-            this.buttonGroupdelete.Location = new System.Drawing.Point(48, 201);
-            this.buttonGroupdelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonGroupdelete.Location = new System.Drawing.Point(56, 230);
+            this.buttonGroupdelete.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGroupdelete.Name = "buttonGroupdelete";
             this.buttonGroupdelete.Size = new System.Drawing.Size(150, 27);
             this.buttonGroupdelete.TabIndex = 2;
@@ -89,8 +89,8 @@
             this.buttonGroupmanagersecession.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGroupmanagersecession.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold);
             this.buttonGroupmanagersecession.ForeColor = System.Drawing.Color.White;
-            this.buttonGroupmanagersecession.Location = new System.Drawing.Point(48, 259);
-            this.buttonGroupmanagersecession.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonGroupmanagersecession.Location = new System.Drawing.Point(56, 288);
+            this.buttonGroupmanagersecession.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGroupmanagersecession.Name = "buttonGroupmanagersecession";
             this.buttonGroupmanagersecession.Size = new System.Drawing.Size(150, 27);
             this.buttonGroupmanagersecession.TabIndex = 3;
@@ -101,7 +101,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 73);
+            this.label2.Location = new System.Drawing.Point(60, 102);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 12);
@@ -110,8 +110,8 @@
             // 
             // textBoxMygroupname
             // 
-            this.textBoxMygroupname.Location = new System.Drawing.Point(48, 97);
-            this.textBoxMygroupname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxMygroupname.Location = new System.Drawing.Point(56, 126);
+            this.textBoxMygroupname.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMygroupname.Name = "textBoxMygroupname";
             this.textBoxMygroupname.Size = new System.Drawing.Size(152, 21);
             this.textBoxMygroupname.TabIndex = 5;
@@ -127,9 +127,9 @@
             this.Controls.Add(this.buttonGroupdelete);
             this.Controls.Add(this.buttonGroupmessageall);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormGroupmanagement";
-            this.Padding = new System.Windows.Forms.Padding(14, 40, 14, 13);
+            this.Padding = new System.Windows.Forms.Padding(14, 60, 14, 13);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -44,8 +44,8 @@
             this.buttonWrite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonWrite.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonWrite.ForeColor = System.Drawing.Color.White;
-            this.buttonWrite.Location = new System.Drawing.Point(419, 179);
-            this.buttonWrite.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonWrite.Location = new System.Drawing.Point(419, 193);
+            this.buttonWrite.Margin = new System.Windows.Forms.Padding(2);
             this.buttonWrite.Name = "buttonWrite";
             this.buttonWrite.Size = new System.Drawing.Size(116, 59);
             this.buttonWrite.TabIndex = 0;
@@ -57,7 +57,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 15F);
-            this.label1.Location = new System.Drawing.Point(189, 13);
+            this.label1.Location = new System.Drawing.Point(189, 27);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 20);
@@ -66,16 +66,16 @@
             // 
             // textBoxTitle
             // 
-            this.textBoxTitle.Location = new System.Drawing.Point(127, 79);
-            this.textBoxTitle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxTitle.Location = new System.Drawing.Point(127, 93);
+            this.textBoxTitle.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxTitle.Name = "textBoxTitle";
             this.textBoxTitle.Size = new System.Drawing.Size(269, 21);
             this.textBoxTitle.TabIndex = 2;
             // 
             // textBoxContent
             // 
-            this.textBoxContent.Location = new System.Drawing.Point(127, 179);
-            this.textBoxContent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxContent.Location = new System.Drawing.Point(127, 193);
+            this.textBoxContent.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxContent.Multiline = true;
             this.textBoxContent.Name = "textBoxContent";
             this.textBoxContent.Size = new System.Drawing.Size(269, 156);
@@ -84,7 +84,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 81);
+            this.label2.Location = new System.Drawing.Point(57, 95);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 12);
@@ -94,7 +94,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(57, 181);
+            this.label3.Location = new System.Drawing.Point(57, 195);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 12);
@@ -112,9 +112,9 @@
             this.Controls.Add(this.textBoxTitle);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonWrite);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormGroupBoardWrite";
-            this.Padding = new System.Windows.Forms.Padding(14, 40, 14, 13);
+            this.Padding = new System.Windows.Forms.Padding(14, 60, 14, 13);
             this.ResumeLayout(false);
             this.PerformLayout();
 

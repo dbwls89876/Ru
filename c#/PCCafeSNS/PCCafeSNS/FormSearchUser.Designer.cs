@@ -36,7 +36,7 @@
             // 
             // textBoxUserID
             // 
-            this.textBoxUserID.Location = new System.Drawing.Point(12, 25);
+            this.textBoxUserID.Location = new System.Drawing.Point(11, 49);
             this.textBoxUserID.Name = "textBoxUserID";
             this.textBoxUserID.Size = new System.Drawing.Size(227, 21);
             this.textBoxUserID.TabIndex = 0;
@@ -48,7 +48,7 @@
             this.buttonSearchUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSearchUser.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonSearchUser.ForeColor = System.Drawing.Color.White;
-            this.buttonSearchUser.Location = new System.Drawing.Point(245, 24);
+            this.buttonSearchUser.Location = new System.Drawing.Point(244, 48);
             this.buttonSearchUser.Name = "buttonSearchUser";
             this.buttonSearchUser.Size = new System.Drawing.Size(75, 21);
             this.buttonSearchUser.TabIndex = 3;
@@ -63,7 +63,7 @@
             this.buttonFollow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFollow.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonFollow.ForeColor = System.Drawing.Color.White;
-            this.buttonFollow.Location = new System.Drawing.Point(245, 68);
+            this.buttonFollow.Location = new System.Drawing.Point(244, 92);
             this.buttonFollow.Name = "buttonFollow";
             this.buttonFollow.Size = new System.Drawing.Size(75, 23);
             this.buttonFollow.TabIndex = 4;
@@ -73,7 +73,7 @@
             // labelUserID
             // 
             this.labelUserID.AutoSize = true;
-            this.labelUserID.Location = new System.Drawing.Point(13, 78);
+            this.labelUserID.Location = new System.Drawing.Point(12, 102);
             this.labelUserID.Name = "labelUserID";
             this.labelUserID.Size = new System.Drawing.Size(0, 12);
             this.labelUserID.TabIndex = 5;
@@ -88,7 +88,6 @@
             this.Controls.Add(this.buttonSearchUser);
             this.Controls.Add(this.textBoxUserID);
             this.Name = "FormSearchUser";
-            this.Text = "FormSearchUser";
             this.ResumeLayout(false);
             this.PerformLayout();
 
