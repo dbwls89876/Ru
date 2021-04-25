@@ -79,7 +79,7 @@ public class fourth {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String result = Integer.toHexString(factorial(10000));
-		System.out.println(result); //스택 오버 플로우는 발생하지 않지만 출력 불가, 벡터를 사용해서 출력해보기 ㅜㅜ
+		System.out.println(result); //스택 오버 플로우는 발생하지 않지만 출력 불가, 리스트를 사용해서 문자열로 출력해보기
 		//System.out.println(factorial(100, 1).invoke());
 	}
 
