@@ -9,8 +9,6 @@ class Calculator{
 	ArrayList<String> posfix;
 	Stack<Double> stack;
 	boolean isError;
-	//Stack<String> operator = new Stack<>(); 제대로 굴러가게 수정하기
-	
 	public Calculator() {
 		posfix = new ArrayList<String>();
 		posfix.add("0");
@@ -29,7 +27,7 @@ class Calculator{
 		return this;
 	}
 	
-	public Calculator subtract(double num) { // 나누기가 먼저 되야함, 예외처리 0입력될 시 안되고있음
+	public Calculator subtract(double num) {
 		posfix.add(Double.toString(num));
 		if(op!=null) { // 나누기가 더하기 연산자보다 우선순위가 높아 먼저 add됨
 			posfix.add("/");
