@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\수학2\수학2\bin\Debug\수학2.exe.config
+C:\Users\Administrator\source\repos\수학2\수학2\bin\Debug\수학2.exe
+C:\Users\Administrator\source\repos\수학2\수학2\bin\Debug\수학2.pdb
+C:\Users\Administrator\source\repos\수학2\수학2\obj\Debug\수학2.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\수학2\수학2\obj\Debug\수학2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\수학2\수학2\obj\Debug\수학2.exe
+C:\Users\Administrator\source\repos\수학2\수학2\obj\Debug\수학2.pdb
