@@ -1,12 +1,10 @@
 #include <iostream>
-#include <cstring>
+#include <string>
 using namespace std;
 
 int main(){
-	int a, b;
+	long long a, b;
 	cin>>a, b;
-	string c, d;
-	char arr1[100], arr2[100];
 	
-	c = to_string(a);
+	cout<<a+b;
 }
