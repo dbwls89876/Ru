@@ -5,3 +5,9 @@ C:\Users\Administrator\source\repos\수학2\수학2\obj\Debug\수학2.csprojAsse
 C:\Users\Administrator\source\repos\수학2\수학2\obj\Debug\수학2.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\수학2\수학2\obj\Debug\수학2.exe
 C:\Users\Administrator\source\repos\수학2\수학2\obj\Debug\수학2.pdb
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\9. 수학2\수학2\bin\Debug\수학2.exe.config
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\9. 수학2\수학2\bin\Debug\수학2.exe
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\9. 수학2\수학2\bin\Debug\수학2.pdb
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\9. 수학2\수학2\obj\Debug\수학2.csprojAssemblyReference.cache
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\9. 수학2\수학2\obj\Debug\수학2.exe
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\9. 수학2\수학2\obj\Debug\수학2.pdb
