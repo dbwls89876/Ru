@@ -31,7 +31,7 @@ namespace 수학2
                         check = 1;
                         break;
                     }
-                    else if (list[j] > i / list[j])
+                    else if (list[j] > i / list[j]) // 소수의 크기 > 값 / 소수의 크기 일 때 그 이상으로 나눌 의미가 없음
                         break;
                 }
                 if (check == 0) {
