@@ -1,0 +1,6 @@
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\기타\기타\obj\Debug\기타.csprojAssemblyReference.cache
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\기타\기타\bin\Debug\기타.exe.config
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\기타\기타\bin\Debug\기타.exe
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\기타\기타\bin\Debug\기타.pdb
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\기타\기타\obj\Debug\기타.exe
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\기타\기타\obj\Debug\기타.pdb

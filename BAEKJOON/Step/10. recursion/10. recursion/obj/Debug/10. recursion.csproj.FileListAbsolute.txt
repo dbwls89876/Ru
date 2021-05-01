@@ -1,0 +1,6 @@
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\10. recursion\10. recursion\obj\Debug\10. recursion.csprojAssemblyReference.cache
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\10. recursion\10. recursion\bin\Debug\_10.recursion.exe.config
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\10. recursion\10. recursion\bin\Debug\_10.recursion.exe
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\10. recursion\10. recursion\bin\Debug\_10.recursion.pdb
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\10. recursion\10. recursion\obj\Debug\_10.recursion.exe
+C:\Users\dbwls\Desktop\생활\Git\Ru\BAEKJOON\Step\10. recursion\10. recursion\obj\Debug\_10.recursion.pdb
