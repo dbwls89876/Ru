@@ -63,7 +63,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="9020_Goldbach_conjecture.cs" />
+    <Compile Include="9020_Goldbach_conjecture☆.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
