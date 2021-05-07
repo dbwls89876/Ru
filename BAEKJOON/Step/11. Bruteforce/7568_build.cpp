@@ -17,18 +17,40 @@ class Build{
 	//랭크 분류 
 	void build(){	
 		for(int i = 0; i<t; i++){
-			for(int j = i+1; j<t; j++){
-				if(arr[i][0] > arr[j][0] && arr[i][1] >= arr[j][1] || arr[i][0] >= arr[j][0] && arr[i][1] > arr[j][1])
-					arr[j][2]++;
-				else if(arr[i][0] == arr[j][0] && arr[i][1] == arr[j][1])
+			for(int j = 0; j<t; j++){
+//				printf("몸무게 : arr[i] : %d , arr[j] : %d\n", arr[i][0], arr[j][0]);
+//				printf("키 : arr[i] : %d , arr[j] : %d\n", arr[i][1], arr[j][1]);
+				if(i==j)
 					continue;
-				else if(arr[i][0] > arr[j][0] && arr[i][1] < arr[j][1] || arr[i][0] < arr[j][0] && arr[i][1] > arr[j][1]){
-					continue;
-				}
-				else
-					arr[i][2]++;			
+				else if((arr[i][0] < arr[j][0] && arr[i][1]<=arr[j][1]) || (arr[i][0] <= arr[j][0] && arr[i][1] < arr[j][1])) // 몸무게가 작고 키는 작거나 같음, 몸무게는 작거나 같고 키는 작음 
+					arr[i][2]++;
+//				printf("랭크 : %d\n" ,arr[i][2]);		
 			}
-		}	
+//			printf("몸무게 : arr[i] : %d ", arr[i][0]);
+//			printf("키 : arr[i] : %d\n", arr[i][1]);
+		}
+		
+		printf("정리전 랭크 : ");
+		for(int i = 0; i<t; i++){
+			printf("%d", arr[i][2]);
+		}
+		printf("\n");
+		for(int k = 0; k<t; k++)
+			for(int i = 0; i<t; i++)
+				for(int j = 0; j<t; j++)
+					if((arr[i][0] > arr[j][0] && arr[i][1] < arr[j][1]) || (arr[i][0] < arr[j][0] && arr[i][1] > arr[j][1]))// 몸무게가 크고 키가 작음, 몸무게가 작고 키가 큼  
+						{
+							if(arr[i][2]<arr[j][2])
+								arr[j][2] = arr[i][2];
+							else
+								arr[i][2] = arr[j][2];
+						}
+		
+		printf("정리후 랭크 : ");
+		for(int i = 0; i<t; i++){
+			printf("%d", arr[i][2]);
+		}
+		printf("\n");
 	}
 	
 	//랭크 출력 
@@ -75,8 +97,8 @@ class Build{
 		
 		//테스트3 ************************************ 
 		printf("Test3\n");
-		for(int i = 1; i<=5; i++){
-			answer[i] = i;
+		for(int i = 0; i<5; i++){
+			answer[i] = i+1;
 		}
 		t = 5;
 		for(int i = 0; i<5; i++){
@@ -94,7 +116,7 @@ class Build{
 		for(int i = 0; i<5; i++){
 			answer[i] = 1;
 		}
-		answer[0] = 2;
+		answer[0] = 5;
 		t = 5;
 		for(int i = 0; i<5; i++){
 			arr[i][0] = n+i;
@@ -102,8 +124,8 @@ class Build{
 			arr[i][2] = 1;
 		}
 		
-		arr[2][0] == 99;
-		arr[4][0] == 99;
+		arr[2][0] = 99;
+		arr[4][0] = 99;
 		
 		build();
 		trueORfalse(answer, &tf);
@@ -122,10 +144,12 @@ class Build{
 	
 	void trueORfalse(int answer[], int * tf){
 		for(int i = 0; answer[i]!=0; i++){
+			printf("랭크 : %d, 답 : %d", arr[i][2], answer[i]);
 			if(arr[i][2] != answer[i]){
 				*tf=0;
-				break;
-			}		
+				//break;
+			}	
+			printf("\n");	
 		}
 	}
 };
@@ -136,9 +160,9 @@ int main(){
 	int t;
 	scanf("%d", &t);
 	Build build;
-	//Build build(t);
-//	build.build();
-//	build.rankPrint();
-	build.test();
+	build.init(t);
+	build.build();
+	build.rankPrint();
+//	build.test();
 	return 0;
 }
