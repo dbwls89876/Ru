@@ -1,11 +1,16 @@
 #include <stdio.h>
 #include <list>
+
+//괜히 심각하게 생각한 나머지 간단한 문제에 생고생함
+//알고보니 몸무게가 동일하거나 키가 동일한 경우는 고려도 안했던거임~~ 올림피아드라도 그렇지 초등학생 문제를 왜 이따구로 내나 싶었습니다........ 
+//하지만 내가 문제를 너무 어렵게 생각했던거시다 
+ 
 class Build{
 	int arr[50][3];
 	int t;
 	public:
 	Build(){}
-	void init(int test){
+	void init(int test){ // 입력을 받는 함수 
 		t = test;
 		for(int i = 0; i<t; i++){
 			scanf("%d %d", &arr[i][0], &arr[i][1]);
@@ -18,39 +23,23 @@ class Build{
 	void build(){	
 		for(int i = 0; i<t; i++){
 			for(int j = 0; j<t; j++){
-//				printf("몸무게 : arr[i] : %d , arr[j] : %d\n", arr[i][0], arr[j][0]);
-//				printf("키 : arr[i] : %d , arr[j] : %d\n", arr[i][1], arr[j][1]);
 				if(i==j)
 					continue;
 				else if((arr[i][0] < arr[j][0] && arr[i][1]<=arr[j][1]) || (arr[i][0] <= arr[j][0] && arr[i][1] < arr[j][1])) // 몸무게가 작고 키는 작거나 같음, 몸무게는 작거나 같고 키는 작음 
-					arr[i][2]++;
-//				printf("랭크 : %d\n" ,arr[i][2]);		
+					arr[i][2]++;		
 			}
-//			printf("몸무게 : arr[i] : %d ", arr[i][0]);
-//			printf("키 : arr[i] : %d\n", arr[i][1]);
 		}
-		
-		printf("정리전 랭크 : ");
-		for(int i = 0; i<t; i++){
-			printf("%d", arr[i][2]);
-		}
-		printf("\n");
-		for(int k = 0; k<t; k++)
+
+		for(int k = 0; k<t; k++) //테스트케이스만큼 
 			for(int i = 0; i<t; i++)
 				for(int j = 0; j<t; j++)
 					if((arr[i][0] > arr[j][0] && arr[i][1] < arr[j][1]) || (arr[i][0] < arr[j][0] && arr[i][1] > arr[j][1]))// 몸무게가 크고 키가 작음, 몸무게가 작고 키가 큼  
 						{
-							if(arr[i][2]<arr[j][2])
+							if(arr[i][2]<arr[j][2]) // 랭크가 높은 쪽의 랭크를 옮겨옴 
 								arr[j][2] = arr[i][2];
 							else
 								arr[i][2] = arr[j][2];
 						}
-		
-		printf("정리후 랭크 : ");
-		for(int i = 0; i<t; i++){
-			printf("%d", arr[i][2]);
-		}
-		printf("\n");
 	}
 	
 	//랭크 출력 
@@ -142,7 +131,7 @@ class Build{
 	    } 
 	}
 	
-	void trueORfalse(int answer[], int * tf){
+	void trueORfalse(int answer[], int * tf){ // 테스트의 성공/실패 여부를 가리는 함수 
 		for(int i = 0; answer[i]!=0; i++){
 			printf("랭크 : %d, 답 : %d", arr[i][2], answer[i]);
 			if(arr[i][2] != answer[i]){
@@ -158,11 +147,27 @@ class Build{
 
 int main(){
 	int t;
+	int arr[50][3];
 	scanf("%d", &t);
-	Build build;
-	build.init(t);
-	build.build();
-	build.rankPrint();
+	for(int i = 0; i<t; i++){
+			scanf("%d %d", &arr[i][0], &arr[i][1]);
+			arr[i][2] = 1;
+		}
+//	Build build;
+//	build.init(t);
+//	build.build();
+//	build.rankPrint();
 //	build.test();
+
+	for(int i = 0; i<t; i++){
+		for(int j = 0; j<t; j++){
+			if(arr[i][0] > arr[j][0] && arr[i][1] > arr[j][1])
+				arr[j][2]++;
+		}
+	}
+	
+	for(int i = 0; i<t; i++)
+		printf("%d ", arr[i][2]);
+		
 	return 0;
 }
