@@ -13,7 +13,7 @@ int main(){
 		arr.push_back(num);
 	}
 	
-	std::sort(arr.begin(), arr.end()); // 내장함수
+	std::sort(arr.begin(), arr.end());
 	
 	for(int i = 0; i<n; i++)
 		printf("%d\n", arr[i]);
