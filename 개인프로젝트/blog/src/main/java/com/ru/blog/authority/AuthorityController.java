@@ -1,2 +1,4 @@
-package com.ru.blog.authority;public class AuthorityController {
+package com.ru.blog.authority;
+
+public class AuthorityController {
 }
