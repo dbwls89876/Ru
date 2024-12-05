@@ -19,11 +19,9 @@ Skill
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/DBeaver-382923?style=flat-square&logo=python&logoColor=white"/>
 
-### 
-https://img.shields.io/badge/logo-test-blue?logo=facebook
-####
 <br>
-![Ru's github stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true)
+![Ru's GitHub stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true&theme=tokyonight)
 
+<br>
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbwls89876)](https://solved.ac/dbwls89876)
