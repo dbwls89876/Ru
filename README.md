@@ -4,8 +4,8 @@
 <br>
 
 Skill
-<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=Swift&logoColor=white"/>
-<img src="https://img.shields.io/badge/c-blue?style=flat-square&logo=c&logoColor=blue"/> <img src="https://img.shields.io/badge/C++-blue?style=flat-square&logo=C++&logoColor=blue"/> <img src="https://img.shields.io/badge/dotnet-512BD4?style=flat-square&logo=.NET&logoColor=512BD4"/> <img src="https://img.shields.io/badge/spring-green?style=flat-square&logo=Spring&logoColor=green"/> <img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=React&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=Python&logoColor=3776AB"/>
+<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-blue?style=flat-square&logo=c&logoColor=blue"/> <img src="https://img.shields.io/badge/C++-blue?style=flat-square&logo=C++&logoColor=blue"/> <img src="https://img.shields.io/badge/dotnet-512BD4?style=flat-square&logo=.NET&logoColor=512BD4"/> <img src="https://img.shields.io/badge/spring-green?style=flat-square&logo=Spring&logoColor=green"/> <img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=React&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=Python&logoColor=3776AB"/>
 
 <br>
 
