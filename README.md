@@ -5,7 +5,8 @@
 
 Skill
 <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/>
-<img src="https://img.shields.io/badge/C-blue?style=flat-square&logo=c&logoColor=blue"/>
+<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-A8B9CCstyle=flat-square&logo=C&logoColor=A8B9CC"/>
 <img src="https://img.shields.io/badge/C-blue?style=flat-square&logo=c&logoColor=blue"/>
 <img src="https://img.shields.io/badge/C++-blue?style=flat-square&logo=C++&logoColor=blue"/>
 <img src="https://img.shields.io/badge/dotnet-512BD4?style=flat-square&logo=.NET&logoColor=512BD4"/>
