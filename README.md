@@ -4,12 +4,12 @@
 <br>
 
 Skill
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C++&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-white?style=flat-square&logo=cplusplus&logoColor=blue"/>
 ### 
 
 ####
 <br>
-![Ru's github stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true&theme=tokyonight)
+![Ru's github stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true&theme)
 
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={handle})](https://solved.ac/{dbwls89876})
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbwls89876)](https://solved.ac/dbwls89876)
