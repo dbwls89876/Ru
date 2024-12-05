@@ -4,18 +4,20 @@
 <br>
 
 Skill
-<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/>
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white"/>
+<br>
 <img src="https://img.shields.io/badge/C-blue?style=flat-square&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/C++-blue?style=flat-square&logo=C++&logoColor=white"/>
-<img src="https://img.shields.io/badge/dotnet-512BD4?style=flat-square&logo=.NET&logoColor=white"/>
-<img src="https://img.shields.io/badge/spring-green?style=flat-square&logo=Spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=React&logoColor=white"/>
-<img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=.NET&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring-green?style=flat-square&logo=Spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 
 <br>
 
-<img src="https://img.shields.io/badge/oracle-F80000?style=flat-square&logo=oracle&logoColor=F80000"/><img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=4479A1"/><img src="https://img.shields.io/badge/postgresql-4169E1?style=flat-square&logo=postgresql&logoColor=4169E1"/><img src="https://img.shields.io/badge/dbeaver-382923?style=flat-square&logo=python&logoColor=382923"/>
+<img src="https://img.shields.io/badge/oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySql-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/DBeaver-382923?style=flat-square&logo=python&logoColor=white"/>
 
 ### 
 https://img.shields.io/badge/logo-test-blue?logo=facebook
