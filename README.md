@@ -2,5 +2,14 @@
 :cocktail:Computer Science에 대한 공부 정리 및 개인&팀프로젝트를 모아놓은 개인 깃허브 입니다.
 <br>
 <br>
+
+Skill
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C++&logoColor=white"/>
+### 
+
+####
 <br>
-![Ru's github stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true)
+![Ru's github stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true&theme=tokyonight)
+
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={handle})](https://solved.ac/{dbwls89876})
