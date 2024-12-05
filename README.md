@@ -10,18 +10,19 @@ Skill
 <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=.NET&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring-green?style=flat-square&logo=Spring&logoColor=white"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/><br>
 
-<br>
+
 
 <img src="https://img.shields.io/badge/oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySql-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/DBeaver-382923?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/DBeaver-382923?style=flat-square&logo=python&logoColor=white"/><br>
 
-<br>
-![Ru's GitHub stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true&theme=tokyonight)
 
-<br>
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbwls89876)](https://solved.ac/dbwls89876)
+
+![Ru's GitHub stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true&theme=tokyonight)<br>
+
+
+
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbwls89876)](https://solved.ac/dbwls89876)
