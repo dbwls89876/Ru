@@ -4,15 +4,12 @@
 <br>
 
 Skill
-<img src="https://img.shields.io/badge/C-blue?style=flat-square&logo=c&logoColor=blue"/> <img src="https://img.shields.io/badge/C++-blue?style=flat-square&logo=cplusplus&logoColor=blue"/><img src="https://img.shields.io/badge/dotnet-512BD4?style=flat-square&logo=dotnet&logoColor=512BD4"/>
-<img src="https://img.shields.io/badge/spring-green?style=flat-square&logo=spring&logoColor=green"/><img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=3776AB"/>
+<img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-blue?style=flat-square&logo=c&logoColor=blue"/> <img src="https://img.shields.io/badge/C++-blue?style=flat-square&logo=cplusplus&logoColor=blue"/> <img src="https://img.shields.io/badge/dotnet-512BD4?style=flat-square&logo=dotnet&logoColor=512BD4"/> <img src="https://img.shields.io/badge/spring-green?style=flat-square&logo=spring&logoColor=green"/> <img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=3776AB"/>
 
 <br>
-<img src="https://img.shields.io/badge/oracle-F80000?style=flat-square&logo=oracle&logoColor=F80000"/>
-<img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=4479A1"/>
-<img src="https://img.shields.io/badge/postgresql-4169E1?style=flat-square&logo=postgresql&logoColor=4169E1"/>
-<img src="https://img.shields.io/badge/dbeaver-382923?style=flat-square&logo=python&logoColor=382923"/>
+
+<img src="https://img.shields.io/badge/oracle-F80000?style=flat-square&logo=oracle&logoColor=F80000"/><img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=4479A1"/><img src="https://img.shields.io/badge/postgresql-4169E1?style=flat-square&logo=postgresql&logoColor=4169E1"/><img src="https://img.shields.io/badge/dbeaver-382923?style=flat-square&logo=python&logoColor=382923"/>
 
 ### 
 https://img.shields.io/badge/logo-test-blue?logo=facebook
