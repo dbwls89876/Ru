@@ -16,9 +16,22 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 
 
-<img src="https://img.shields.io/badge/oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/> <img src="https://img.shields.io/badge/MySql-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySql-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/DBeaver-382923?style=flat-square&logo=python&logoColor=white"/>
+
+## Team Baserak
+### [굉장해 엄청나!](https://zealous-potassium-8b8.notion.site/abfd4b81f5a94344bd79912355213a2a)
+- 서로의 노력을 공유하며 칭찬을 주고받는 커뮤니티 ‘굉장해! 엄청나!’
+- 깃허브 주소 : https://github.com/black-pepper/AwesomeGreat_server
+ 
+### [AF Day](https://www.notion.so/AFDAY-631eedde958e4778a6fe9275db5a792f)
+- 문제를 내서 SNS으로 공유하여 서로 맞춰 볼 수 있는 프로젝트 ‘AFDay’
+- 깃허브 주소 : https://github.com/baseurak/AFDay-server-public
+
+## 개인 프로젝트
+
+### [데이터 베이스 수업 PC방 관리 프로그램 제작 프로젝트](https://github.com/dbwls89876/Ru/tree/master/c%23/PCCafeSNS)
+### [소설 홈페이지 제작 프로젝트](https://github.com/dbwls89876/novel_project)
 
 
 ![Ru's GitHub stats](https://github-readme-stats.vercel.app/api?username=dbwls89876&show_icons=true&theme=tokyonight)
