@@ -1,0 +1,8 @@
+-- 이름 순으로 정렬안했다고 첫 채점 때 실패
+SELECT ANIMAL_ID, NAME FROM ANIMAL_INS
+WHERE 1=1
+    AND ANIMAL_TYPE LIKE 'Dog'
+    AND LOWER(NAME) LIKE '%el%'
+ORDER BY NAME
+
+    
